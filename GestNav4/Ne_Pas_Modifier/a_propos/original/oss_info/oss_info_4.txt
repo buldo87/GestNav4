@@ -1,0 +1,10 @@
+Copyright (c) 2010 Red Hat Inc.
+
+
+attr 2.4.47 (GPL-2.0)
+
+
+AudioManager 7.0 (MIT,MPL-2.0)
+Copyright (C) 2012, GENIVI Alliance, Inc.
+Copyright (C) 2012, BMW AG
+

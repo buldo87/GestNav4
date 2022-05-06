@@ -1,0 +1,10 @@
+Copyright 1996 by Joseph Moss
+Copyright (C) 2002-2007 Free Software Foundation,
+Inc.
+Copyright (C) Dmitry Golubev <lastguru@mail.ru>,
+2003-2004
+Copyright (C) 2004, Gregory Mokhin
+<mokhin@bog.msu.ru>
+Copyright (C) 2006 Erdal Ronah
+
+Permission to use, copy, modify, distribute, and sell

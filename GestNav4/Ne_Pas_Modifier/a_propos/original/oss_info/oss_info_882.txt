@@ -1,0 +1,10 @@
+the Covered Code that is properly granted shall
+survive any termination of this License, absent
+termination by the terms of such sublicense.
+Provisions that, by their nature, must remain in
+effect beyond the termination of this License, shall
+survive.
+
+5. No Trademark Or Other Rights. This License does
+not grant any rights to: (i) any software apart from
+the Covered Code, nor shall any other rights or

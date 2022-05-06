@@ -1,0 +1,10 @@
+     1.5. "Executable" means Covered Code in any
+form other than Source Code.
+
+     1.6. "Initial Developer" means the individual or
+entity identified as the Initial Developer in the
+Source Code notice required by Exhibit A.
+
+     1.7. "Larger Work" means a work which
+combines Covered Code or portions thereof with
+code not governed by the terms of this License.

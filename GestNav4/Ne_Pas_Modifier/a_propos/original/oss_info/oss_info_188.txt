@@ -1,0 +1,10 @@
+including a cross-claim or counterclaim, against
+Licensor or any licensee alleging that the Original
+Work infringes a patent. This termination provision
+shall not apply for an action alleging patent
+infringement by combinations of the Original Work
+with other software or hardware. 
+
+11) Jurisdiction, Venue and Governing Law. Any
+action or suit relating to this License may be
+brought only in the courts of a jurisdiction wherein

@@ -1,0 +1,225 @@
+;SYS cacou - norme eur+
+[device]
+type="lge_ulc40"
+
+[warning.hva]
+hva_countries=""
+
+[speedcam.disabled_countries]
+_SUI=""
+
+[speedcam.limited_countries]
+_FRA=""
+
+[speedcam.disabled_countries]
+_FRA=""
+
+[poi]
+use_multi_poi_icon = 0 ; evite les doublons des poi
+
+[dr.gps]
+use_speed_signal_as_speed=0
+
+; clignotement des junction_view
+[navigation]
+sim_speed_factor=1
+junction_view_blink_time=500;(0) lane arrow blinks every 0,5 sec
+junction_view_blink_time_no_lane=500;(0) lane arrow blinks every 0,5 sec
+
+[route]
+hnr_ignored_missing_country_ids=*
+
+[2d]
+maxcarsize=150
+mincarsize=120
+
+[3d]
+max_pois=10
+max_pois_on_horizont=1
+max_speedcam=10
+max_speedcam_on_horizont=1
+max_camera=10
+max_camera_on_horizont=1
+
+[warning]
+Radars_choix = 1 
+; mettre a 1 pour activer reglage radars par menu applications
+type = std
+; type vaut eur ou std
+activated_tonal_type="alert"
+approach_beep_distances="300"
+approach_beep_sound="!alert2"speedcam_warning=1
+max_section_time=600
+overspeed_sound="!disabled"
+speedcam_visualtype=1
+speedlimit_warning_visual=1
+speedlimit_warning_voice=1
+speedcam_continuous_approach_beep_when_tonal=0
+speedcam_need_approach_beep_on_section_cameras=1 
+speedwarn_alt_tolerance="100"
+speedwarn_tolerance="100"
+warn_distances="130:1000,110:750,90:600,70:500,50:300,30:150"
+speedcam_soundtype=0		;=0 si non actif ou =2 si radar actif
+
+;-----------------------------------------------------------------
+;la suite du SYSorigine est reecrite par Radars_choix.mscr
+;-----------------------------------------------------------------
+
+speedcam_soundtype_0=2;	Radar_fixe
+speedcam_soundtype_1=2;	Radar_mobile
+speedcam_soundtype_3=2;	Radar_section
+speedcam_soundtype_4=2;	Radar_feu_rouge
+speedcam_soundtype_5=2;	Radar_feu_rouge_vitesse
+speedcam_soundtype_11=2;	Radar_feu_rouge_vitesse
+speedcam_soundtype_31=0;	Radar_distance
+speedcam_soundtype_7=0;	Radar_couloir_bus
+speedcam_soundtype_9=0;	Zone_30
+speedcam_soundtype_2=0;	Carrefour_dangereux
+speedcam_soundtype_8=0;	Zone_dangereuse
+speedcam_soundtype_12=0;	Entree_peage
+speedcam_soundtype_12=0;	Sortie_peage
+speedcam_soundtype_6=0;	Passage_niveau
+speedcam_soundtype_10=0;	Entree_agglo
+
+[speedcam_category:0];	Radar_fixe
+activated_sound = "!alert6"
+approach_beep_distances = "100"
+approach_beep_sound = "!alert6"
+approach_beep_spoken_type = 1
+overspeed_sound = "!ding"
+overspeed_spoken_type = 1
+use-road_speedlimit = 0
+
+[speedcam_category:1];	Radar_mobile
+activated_sound = "!alert2"
+approach_beep_distances = "80"
+approach_beep_sound = "!alert2"
+approach_beep_spoken_type = 1
+overspeed_sound = "!ding"
+overspeed_spoken_type = 1
+use-road_speedlimit = 0
+
+[speedcam_category:3];	Radar_section
+activated_sound = "!alert2"
+approach_beep_distances = "80"
+approach_beep_sound = "!alert2"
+approach_beep_spoken_type = 1
+overspeed_sound = "!ding"
+overspeed_spoken_type = 1
+use-road_speedlimit = 0
+
+[speedcam_category:4];	Radar_feu_rouge
+activated_sound = "!alert2"
+approach_beep_distances = "80"
+approach_beep_sound = "!alert2"
+approach_beep_spoken_type = 1
+overspeed_sound = "!ding"
+overspeed_spoken_type = 1
+use-road_speedlimit = 0
+
+[speedcam_category:5];	Radar_feu_rouge_vitesse
+activated_sound = "!alert2"
+approach_beep_distances = "80"
+approach_beep_sound = "!alert2"
+approach_beep_spoken_type = 1
+overspeed_sound = "!ding"
+overspeed_spoken_type = 1
+use-road_speedlimit = 0
+
+[speedcam_category:11];	Radar_feu_rouge_vitesse
+activated_sound = "!alert2"
+approach_beep_distances = "80"
+approach_beep_sound = "!alert2"
+approach_beep_spoken_type = 1
+overspeed_sound = "!ding"
+overspeed_spoken_type = 1
+use-road_speedlimit = 0
+
+[speedcam_category:31];	Radar_distance
+activated_sound=0
+approach_beep_distances=0
+approach_beep_sound=0
+approach_beep_spoken_type=0
+overspeed_sound=0
+overspeed_spoken_type=0
+use-road_speedlimit=0
+
+
+[speedcam_category:7];	Radar_couloir_bus
+activated_sound=0
+approach_beep_distances=0
+approach_beep_sound=0
+approach_beep_spoken_type=0
+overspeed_sound=0
+overspeed_spoken_type=0
+use-road_speedlimit=0
+
+
+[speedcam_category:9];	Zone_30
+activated_sound=0
+approach_beep_distances=0
+approach_beep_sound=0
+approach_beep_spoken_type=0
+overspeed_sound=0
+overspeed_spoken_type=0
+use-road_speedlimit=0
+
+
+[speedcam_category:2];	Carrefour_dangereux
+activated_sound=0
+approach_beep_distances=0
+approach_beep_sound=0
+approach_beep_spoken_type=0
+overspeed_sound=0
+overspeed_spoken_type=0
+use-road_speedlimit=0
+
+
+[speedcam_category:8];	Zone_dangereuse
+activated_sound=0
+approach_beep_distances=0
+approach_beep_sound=0
+approach_beep_spoken_type=0
+overspeed_sound=0
+overspeed_spoken_type=0
+use-road_speedlimit=0
+
+
+[speedcam_category:12];	Entree_peage
+activated_sound=0
+approach_beep_distances=0
+approach_beep_sound=0
+approach_beep_spoken_type=0
+overspeed_sound=0
+overspeed_spoken_type=0
+use-road_speedlimit=0
+
+
+[speedcam_category:12];	Sortie_peage
+activated_sound=0
+approach_beep_distances=0
+approach_beep_sound=0
+approach_beep_spoken_type=0
+overspeed_sound=0
+overspeed_spoken_type=0
+use-road_speedlimit=0
+
+
+[speedcam_category:6];	Passage_niveau
+activated_sound=0
+approach_beep_distances=0
+approach_beep_sound=0
+approach_beep_spoken_type=0
+overspeed_sound=0
+overspeed_spoken_type=0
+use-road_speedlimit=0
+
+
+[speedcam_category:10];	Entree_agglo
+activated_sound=0
+approach_beep_distances=0
+approach_beep_sound=0
+approach_beep_spoken_type=0
+overspeed_sound=0
+overspeed_spoken_type=0
+use-road_speedlimit=0

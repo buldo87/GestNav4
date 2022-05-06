@@ -1,0 +1,10 @@
+Copyright (c) 2008, Benjamin Herrenschmidt
+
+liba52 0.7.4 (GPL-2.0)
+Copyright (C) 2000-2002 Michel Lespinasse
+<walken@zoy.org>
+Copyright (C) 1999-2000 Aaron Holtzman
+<aholtzma@ess.engr.uvic.ca>
+Copyright (C) 1994, 1995-8, 1999, 2001 Free
+Software Foundation, Inc.
+

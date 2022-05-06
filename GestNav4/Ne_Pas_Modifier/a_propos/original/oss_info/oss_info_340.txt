@@ -1,0 +1,10 @@
+0. If you receive a version of the software that is
+specifically labelled
+   as not being for redistribution (check the version
+message and/or README),
+   you are not permitted to redistribute that version
+of the software in any
+   way or form.
+1. All terms of the all other applicable copyrights
+and licenses must be
+   followed.

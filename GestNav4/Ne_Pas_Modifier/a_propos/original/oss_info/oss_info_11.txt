@@ -1,0 +1,10 @@
+Revision: 1.82)
+NSS no longer contains explicit copyright.
+
+cairo 1.14.6 (MPL-1.1)
+Copyright (C) 2010. Chris Wilson
+<chris@chris-wilson.co.uk>
+
+Check 0.10.0 (LGPL-2.1)
+Copyright (C) 2001, 2002 Arien Malec
+

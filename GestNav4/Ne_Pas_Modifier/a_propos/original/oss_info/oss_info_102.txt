@@ -1,0 +1,10 @@
+
+
+android-external-tremor  (BSD-3-Clause)
+Copyright (c) 2002, Xiph.org Foundation
+
+Anti-Grain Geometry 2.4 (Anti-Grain Geometry
+Public License)
+Copyright (C) 2002-2005 Maxim Shemanarev (http:/
+/www.antigrain.com)
+

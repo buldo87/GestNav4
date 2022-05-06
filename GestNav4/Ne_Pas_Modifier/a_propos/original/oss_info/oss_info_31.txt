@@ -1,0 +1,10 @@
+Copyright (C) <2011> Collabora Ltd.
+Copyright (C) <2011> Thibault Saunier
+<thibault.saunier@collabora.com>
+Copyright (C) <2010> Mark Nauwelaerts
+<mark.nauwelaerts@collabora.co.uk>
+Copyright (C) <2010> Collabora Multimedia
+Copyright (C) <2010> Nokia Corporation
+Copyright (C) 2005 Michal Benes
+<michal.benes@itonis.tv>
+Copyright (C) 2008 Wim Taymans

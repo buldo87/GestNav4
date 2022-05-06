@@ -1,0 +1,10 @@
+Copyright (C) 2007 Alessandro Decina
+Copyright (C) 2005 Fluendo, S.L.
+Copyright (C) 2010 Sebastian Dröge
+<sebastian.droege@collabora.co.uk>
+Copyright (C) 2005 Ronald S. Bultje
+<rbultje@ronald.bitfreak.net>
+Copyright (C) 2008 Nokia Corporation
+<multimedia@maemo.org>
+Copyright (c) 1998-2000 Matthew Conte
+(matt@conte.com)

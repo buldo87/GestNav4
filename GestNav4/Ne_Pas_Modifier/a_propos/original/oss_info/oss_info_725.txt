@@ -1,0 +1,10 @@
+
+     1.8. "License" means this document.
+
+     1.8.1. "Licensable" means having the right to
+grant, to the maximum extent possible, whether at
+the time of the initial grant or subsequently
+acquired, any and all of the rights conveyed herein.
+
+     1.9. "Modifications" means any addition to or
+deletion from the substance or structure of either

@@ -1,0 +1,10 @@
+label, demarcate or otherwise identify that changes
+were made to the original Work. For example, a
+translation could be marked "The original work was
+translated from English to Spanish," or a
+modification could indicate "The original work has
+been modified.";
+
+c. to Distribute and Publicly Perform the Work
+including as incorporated in Collections; and,
+

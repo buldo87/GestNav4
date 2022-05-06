@@ -1,0 +1,10 @@
+Lachowicz <cinamod@hotmail.com>
+Copyright (C) 1994-2013 Free Software Foundation,
+Inc.
+
+libsamplerate 0.1.8 (GPL-2.0)
+Copyright (c) 1999-2011 Erik de Castro Lopo
+
+libsndfile 1.0.26 (LGPL-2.1)
+Copyright (c) 1999-2016 Erik de Castro Lopo
+<erikd@mega-nerd.com>

@@ -1,0 +1,10 @@
+derivative works of, distribute and sublicense the
+FreeType Project (in both source and object code
+forms) and derivative works thereof for any
+purpose; and to authorize others to exercise some or
+all of the rights granted herein, subject to the
+following conditions:
+
+     o Redistribution of source code must retain this
+license file (`FTL.TXT') unaltered; any additions,
+deletions or changes to the original files must be

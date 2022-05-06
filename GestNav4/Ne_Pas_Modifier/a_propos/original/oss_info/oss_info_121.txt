@@ -1,0 +1,10 @@
+ Copyright (C) 2000-2004, International Business
+Machines Corporation and others.
+
+inih  (BSD-3-Clause)
+Copyright (c) 2009, Ben Hoyt
+
+iperf 2.0.5 (NCSA)
+Copyright (c) 1999-2007, The Board of Trustees of
+the University of Illinois
+

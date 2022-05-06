@@ -1,0 +1,10 @@
+mtdev 1.1.5 (MIT)
+Copyright (C) 2010 Henrik Rydberg 
+Copyright (C) 2010 Canonical Ltd.
+
+NanumGothic  (OFL-1.1)
+
+
+ncurses 6.0 (MIT-like License (ncurses))
+Copyright (c) 1998-2014,2015 Free Software
+Foundation, Inc.

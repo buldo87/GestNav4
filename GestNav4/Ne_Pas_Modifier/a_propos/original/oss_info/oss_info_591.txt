@@ -1,0 +1,10 @@
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group
+42, Inc.
+
+For the purposes of this copyright and license,
+"Contributing Authors" is defined as the following
+set of individuals:
+
+     Andreas Dilger
+     Dave Martindale
+     Guy Eric Schalnat

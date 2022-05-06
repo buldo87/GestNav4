@@ -1,0 +1,10 @@
+redistributions of Covered Code. For distributions of
+the Covered Code in source code form, the Notice
+must appear in every file that can include a text
+comments field; in executable form, the Notice and
+a copy of this License must appear in related
+documentation or collateral where the Recipient’s
+rights relating to Covered Code are described. Any
+Additional Notice Provisions which actually appears
+in the Original Code must also be retained or
+included in any and all redistributions of Covered

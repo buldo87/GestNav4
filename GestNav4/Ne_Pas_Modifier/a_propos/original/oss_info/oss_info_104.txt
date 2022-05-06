@@ -1,0 +1,10 @@
+<jeremie.galarneau@efficios.com>
+Copyright 2010 - Mathieu Desnoyers
+<mathieu.desnoyers@efficios.com>
+Copyright (c) 2015 EfficiOS Inc. and Linux
+Foundation
+
+bcrypt - blowfish file encryption 1.1 (BSD-3-Clause)
+Copyright (c) 2002 Johnny Shelley
+<jshelley@cahaus.com>
+

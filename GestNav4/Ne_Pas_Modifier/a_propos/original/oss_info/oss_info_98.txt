@@ -1,0 +1,10 @@
+Copyright (C) 2004-2005 OpenWorks LLP. 
+Copyright (C) 2002 The University Court of the
+University of Glasgow. 
+Copyright (C) 2000-2005 Nicholas Nethercote
+njn@valgrind.org
+
+vsomeip 2.0.1 (MPL-2.0)
+Copyright (C) 2015-2017, Bayerische Motoren Werke
+Aktiengesellschaft (BMW AG)
+

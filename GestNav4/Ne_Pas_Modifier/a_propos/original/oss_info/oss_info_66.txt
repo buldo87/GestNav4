@@ -1,0 +1,10 @@
+
+
+linux-firmware  (GPL-2.0)
+
+
+linux-libc-headers 4.1 (GPL-2.0)
+
+
+Linux-PAM 1.2.1 (GPL-2.0)
+Copyright (C) YEAR Linux-PAM Project

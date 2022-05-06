@@ -1,0 +1,10 @@
+<ca.ingmarsson@gmail.com>
+Copyright (C) <1999> Erik Walthinsen
+<omega@cse.ogi.edu>
+Copyright (C) <2003> David Schleef
+<ds@schleef.org>
+Copyright (C) <2007> Tim-Philipp Müller <tim
+centricular net>
+
+gst-plugins-good 1.8.1 (LGPL-2.1)
+

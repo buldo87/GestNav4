@@ -1,0 +1,10 @@
+Copyright (c) 2008-2013 Collabora Ltd.
+Copyright (c) 2002 Michael Meeks
+Copyright (c) 1994 X Consortium
+Copyright (c) 2005, 2010 Lennart Poettering
+Copyright (c) 2002, 2003 CodeFactory AB
+Copyright (c) 2005 Novell, Inc.
+Copyright (c) 2009 Klaralvdalens Datakonsult AB, a
+KDAB Group company, info@kdab.net
+Copyright (c) 2007, Tanner Lovelace 
+Copyright (c) 2008, Colin Walters 

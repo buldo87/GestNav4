@@ -1,0 +1,10 @@
+
+libcgroup 0.41 (LGPL-2.1)
+
+
+libcroco 0.6.11 (LGPL-2.1)
+Copyright (c) 2002-2003 Dodji Seketeli
+<dodji@seketeli.org>
+
+libdrm 2.4.67 (GPL-2.0)
+Copyright 2009 Samsung Electronics Co., Ltd.

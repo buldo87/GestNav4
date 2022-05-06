@@ -1,0 +1,10 @@
+people to use a large body of free software. For
+example, permission to use the GNU C Library in
+non-free programs enables many more people to use
+the whole GNU operating system, as well as its
+variant, the GNU/Linux operating system.
+
+Although the Lesser General Public License is Less
+protective of the users' freedom, it does ensure that
+the user of a program that is linked with the
+Library has the freedom and the wherewithal to run

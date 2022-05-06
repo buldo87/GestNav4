@@ -1,0 +1,10 @@
+except that a work that constitutes a Collection will
+not be considered an Adaptation for the purpose of
+this License. For the avoidance of doubt, where the
+Work is a musical work, performance or
+phonogram, the synchronization of the Work in
+timed-relation with a moving image ("synching")
+will be considered an Adaptation for the purpose of
+this License.
+
+b. "Collection" means a collection of literary or

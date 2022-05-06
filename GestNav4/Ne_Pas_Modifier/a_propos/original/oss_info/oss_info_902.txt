@@ -1,0 +1,10 @@
+the terms and conditions of this Agreement.
+
+Licensee shall maintain the following copyright and
+permission  notices on STLport sources and its
+documentation unchanged :
+
+Copyright 1999,2000 Boris Fomitchev
+
+This material is provided "as is", with absolutely no
+warranty expressed or implied. Any use is at your

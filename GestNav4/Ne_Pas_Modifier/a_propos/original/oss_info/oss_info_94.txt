@@ -1,0 +1,10 @@
+sysvinit 2.88dsf (GPL-2.0)
+Copyright (c) 1991-2004 Miquel van Smoorenburg
+
+taglib 1.9.1 (MPL-1.1)
+
+
+trace-cmd 2.6 (GPL-2.0,LGPL-2.1)
+Copyright (C) 2009, 2010 Red Hat Inc, Steven
+Rostedt <srostedt@redhat.com>
+

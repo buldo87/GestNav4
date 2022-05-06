@@ -1,0 +1,10 @@
+FreeType version you actually use. 
+
+Legal Terms 
+
+0. Definitions 
+
+Throughout this license, the terms `package',
+`FreeType Project', and `FreeType archive' refer to
+the set of files originally distributed by the authors
+(David Turner, Robert Wilhelm, and Werner

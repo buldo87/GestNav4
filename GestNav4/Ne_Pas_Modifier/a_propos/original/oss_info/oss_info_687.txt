@@ -1,0 +1,10 @@
+
+
+_________________________________________________________________________________________________________________________
+
+
+MIT-like License (xkeyboard-config)
+
+
+Copyright 1996 by Joseph Moss
+Copyright (C) 2002-2007 Free Software Foundation,

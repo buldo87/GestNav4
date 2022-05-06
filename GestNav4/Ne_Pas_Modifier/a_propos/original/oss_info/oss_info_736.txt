@@ -1,0 +1,10 @@
+of such combination).
+          c. the licenses granted in Sections 2.2 (a)
+and 2.2 (b) are effective on the date Contributor
+first makes Commercial Use of the Covered Code.
+          d. Notwithstanding Section 2.2 (b) above,
+no patent license is granted: 1) for any code that
+Contributor has deleted from the Contributor
+Version; 2) separate from the Contributor Version;
+3) for infringements caused by: i) third party
+modifications of Contributor Version or ii) the

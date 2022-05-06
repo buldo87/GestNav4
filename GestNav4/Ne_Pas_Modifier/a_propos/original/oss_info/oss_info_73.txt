@@ -1,0 +1,10 @@
+1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+
+mxc-v4l2-tvin-tw6869-vdi  (GPL-2.0)
+Copyright 2007-2015 Freescale Semiconductor, Inc.
+
+neard 0.15 (GPL-2.0)
+Copyright (C) 2011 Intel Corporation.
+Copyright (C) 2004-2010  Marcel Holtmann
+<marcel@holtmann.org>

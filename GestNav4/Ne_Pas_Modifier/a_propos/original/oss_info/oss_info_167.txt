@@ -1,0 +1,10 @@
+wpa_supplicant 2.5 (BSD-3-Clause)
+Copyright (c) 2002-2015, Jouni Malinen <j@w1.fi>
+and contributors
+
+xkeyboard-config 2.16 (MIT-like License
+(xkeyboard-config))
+Copyright (c) 1996 by Joseph Moss
+Copyright (c) 2002-2007 Free Software Foundation,
+Inc.
+Copyright (c) 2003-2004 Dmitry Golubev

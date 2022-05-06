@@ -1,0 +1,10 @@
+<thiago.sousa.santos@collabora.co.uk>
+Copyright (c) 2008 Filippo Argiolas
+<filippo.argiolas@gmail.com>
+Copyright (c) 2008 Julien Isorce
+<julien.isorce@gmail.com>
+Copyright (c) 1999 Erik Walthinsen
+<omega@cse.ogi.edu>
+Copyright (c) 2007 Alessandro Decina
+Copyright (c) 2010 Ole André Vadla Ravnås
+<oleavr@soundrop.com>

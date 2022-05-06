@@ -1,0 +1,10 @@
+
+node-health-monitor 1.3.5 (MPL-2.0)
+Copyright (C) 2013 Continental Automotive Systems,
+Inc.
+
+node-startup-controller 1.0.2 (MPL-2.0)
+
+
+ofono 1.17 (GPL-2.0)
+Copyright (C) 2008-2011  Intel Corporation.

@@ -1,0 +1,10 @@
+<wim.taymans@gmail.com>
+
+gst-plugins-base 1.8.1 (GPL-2.0,LGPL-2.1)
+Copyright (C) 2006 Daniel Berrange
+Copyright (C) 1998  Damon Chaplin
+Copyright (C) <1999> Erik Walthinsen
+<omega@cse.ogi.edu>
+Copyright (C) 2006 Tim-Philipp Müller <tim
+centricular="" net="">
+Copyright (C) <2004> Thomas Vander Stichele

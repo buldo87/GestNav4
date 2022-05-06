@@ -1,0 +1,10 @@
+Copyright Motorola, Inc. 2003
+
+libpcre 8.38 (BSD-3-Clause)
+Copyright (c) 2007-2012, Google Inc.
+Copyright (c) 2009-2014 Zoltan Herczeg
+Copyright (c) 1997-2014 University of Cambridge
+
+libpng 1.6.21 (Libpng)
+
+

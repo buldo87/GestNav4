@@ -1,0 +1,10 @@
+Copyright (c) 2012 Google, Inc.
+
+freetype 2.6.3 (FTL)
+Copyright (c)  2003-2016 by David Turner, Robert
+Wilhelm, and Werner Lemberg.
+Copyright (c) 2009 by Oran Agra and Mickey Gabel.
+Copyright (c) 2005 by suzuki toshiya, Masatake
+YAMATO, Red Hat K.K., David Turner, Robert
+Wilhelm, and Werner Lemberg.  
+

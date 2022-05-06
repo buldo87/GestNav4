@@ -1,0 +1,10 @@
+Copyright (c) 2004 Ronald Bultje
+<rbultje@ronald.bitfreak.net>
+
+gst-plugins-ugly 0.10.19 (LGPL-2.1)
+
+
+gst-rtsp-server 1.8.1 (LGPL-2.1)
+Copyright (c) 2012 Wim Taymans <wim.taymans at
+gmail.com>
+

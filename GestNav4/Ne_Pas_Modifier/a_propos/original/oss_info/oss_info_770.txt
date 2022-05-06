@@ -1,0 +1,10 @@
+C.F.R. 227.7202-1 through 227.7202-4 (June 1995),
+all U.S. Government End Users acquire Covered
+Code with only those rights set forth herein.
+
+11. Miscellaneous
+This License represents the complete agreement
+concerning subject matter hereof. If any provision of
+this License is held to be unenforceable, such
+provision shall be reformed only to the extent
+necessary to make it enforceable. This License shall

@@ -1,0 +1,10 @@
+Copyright (C) 2012 Igalia S.L.
+Copyright (C) 2011 Collabora Ltd.
+
+libtheora 1.1.1 (BSD-3-Clause,GPL-2.0)
+Copyright (C) 2002-2009 Xiph.org Foundation
+Copyright (C) Thomas Östreich - June 2001
+Copyright (C) 1999 Rainer Johanni
+<rainer@johanni.de>
+Copyright (C) Thomas Östreich - June 2001
+Copyright (C) 1999 Rainer Johanni

@@ -1,0 +1,10 @@
+Aktiengesellschaft (BMW AG)
+
+connman 1.31 (GPL-2.0)
+Copyright (C) 2007-2008  Intel Corporation
+
+coreutils 6.9 (GPL-2.0)
+
+
+cracklib 2.9.5 (LGPL-2.1)
+Copyright (c) 1993 Alec Muffett

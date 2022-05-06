@@ -1,0 +1,10 @@
+from the Standard Version.
+     d) make other distribution arrangements with
+the Copyright Holder.
+
+4. You may distribute the programs of this Package
+in object code or executable form, provided that
+you do at least ONE of the following:
+
+     a) distribute a Standard Version of the
+executables and library files, together with

@@ -1,0 +1,10 @@
+psplash 0.1 (GPL-2.0)
+
+
+psplash  (GPL-2.0)
+
+
+pulseaudio 6.0 (GPL-2.0,LGPL-2.1)
+
+
+qt-gstreamer 1.2.0 (LGPL-2.1)

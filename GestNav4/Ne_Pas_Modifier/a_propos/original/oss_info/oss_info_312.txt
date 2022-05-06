@@ -1,0 +1,10 @@
+Berkeley, by Digital Equipment Corporation and by
+Internet Software
+Consortium.  The DEC portions are under the
+following license:
+
+Portions Copyright (C) 1993 by Digital Equipment
+Corporation.
+
+Permission to use, copy, modify, and distribute this
+software for any

@@ -1,0 +1,10 @@
+libhangul 0.1.0 (LGPL-2.1)
+
+
+libical 2.0.0 (MPL-1.1)
+Copyright (c) 2000, Eric Busboom
+<eric@softwarestudio.org>
+Copyright (c) 2015 William Yu
+<williamyu@gnome.org>
+Copyright (c) 2002, Critical Path
+Copyright (c) 2001, Patrick Lewis

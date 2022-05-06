@@ -1,0 +1,10 @@
+Copyright (C) 1999-2005 - Karim Yaghmour
+<karim@opersys.com>
+Copyright (C) 2008-2016 Mathieu Desnoyers
+<mathieu.desnoyers@efficios.com>
+
+lttng-tools 2.7.1 (GPL-2.0,LGPL-2.1)
+Copyright (c) 2011 David Goulet
+<david.goulet@polymtl.ca>
+Copyright (c) 2012 Mathieu Desnoyers
+<mathieu.desnoyers@efficios.com>

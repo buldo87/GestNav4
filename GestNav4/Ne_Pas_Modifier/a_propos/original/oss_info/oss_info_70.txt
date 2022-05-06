@@ -1,0 +1,10 @@
+<dgoulet@efficios.com>
+
+LZMA Utils 5.2.2 (GPL-2.0,LGPL-2.1)
+
+
+m4 1.4.9 (GPL-2.0)
+
+
+make 3.81 (GPL-2.0)
+

@@ -1,0 +1,10 @@
+this License and any third party intellectual property
+claims, for the duration of intellectual property
+protections inherent in the Original Code, SGI
+hereby grants Recipient a worldwide, royalty-free,
+non-exclusive license, to do the following: (i) under
+copyrights Licensable by SGI, to reproduce,
+distribute, create derivative works from, and, to the
+extent applicable, display and perform the Original
+Code alone and/or as part of a Larger Work; and
+(ii) under any patent claims Licensable by SGI and

@@ -1,0 +1,10 @@
+     Netscape Communications Corporation
+("Netscape") may publish revised and/or new
+versions of the License from time to time. Each
+version will be given a distinguishing version
+number.
+
+     6.2. Effect of New Versions
+     Once Covered Code has been published under a
+particular version of the License, You may always
+continue to use it under the terms of that version.

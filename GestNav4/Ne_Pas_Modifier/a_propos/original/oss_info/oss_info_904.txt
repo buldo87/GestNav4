@@ -1,0 +1,10 @@
+royalties or restrictions.
+
+The Licensee may distribute original or modified
+STLport sources, provided that:
+
+The conditions indicated in the above permission
+notice are met;
+The following copyright notices are retained when
+present, and conditions provided in accompanying
+permission notices are met :

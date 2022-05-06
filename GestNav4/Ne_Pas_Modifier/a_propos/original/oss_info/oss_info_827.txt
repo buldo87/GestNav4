@@ -1,0 +1,10 @@
+By this licence, National ICT Australia Ltd (NICTA)
+grants permission, free of charge, to any person
+who obtains a copy of this software and any
+associated documentation files ("the Software") to
+use and deal with the Software in source code and
+binary forms without restriction, with or without
+modification, and to permit persons to whom the
+Software is furnished to do so, provided that the
+following conditions are met:
+

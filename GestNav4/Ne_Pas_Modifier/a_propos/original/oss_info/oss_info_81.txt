@@ -1,0 +1,10 @@
+Inc.
+
+persistence-client-library 1.0.0 (MPL-2.0)
+Copyright (C) 2016 Mentor Graphics.
+
+persistence-common-object 1.0.3 (MPL-2.0)
+Copyright (c) 2012 Continental Automotive Systems,
+Inc.
+
+powertop 2.8 (GPL-2.0)

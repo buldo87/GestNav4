@@ -1,0 +1,10 @@
+
+
+HarfBuzz 1.2.3 (MIT-like License (HarfBuzz))
+Copyright (c) 2010,2011,2012, Google, Inc.
+Copyright (c) 2012, Mozilla Foundation
+Copyright (c) 2011, Codethink Limited
+Copyright (c) 2008,2010, Nokia Corporation and/or
+its subsidiary(-ies)
+Copyright (c) 2009, Keith Stribley
+Copyright (c) 2009, Martin Hosken and SIL

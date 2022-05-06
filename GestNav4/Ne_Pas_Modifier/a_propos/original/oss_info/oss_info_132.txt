@@ -1,0 +1,10 @@
+Copyright (c) 2007-2012 Niels Provos and Nick
+Mathewson
+Copyright (c) 2000 Dug Song
+<dugsong@monkey.org>
+Copyright (c) 1993 The Regents of the University of
+California.
+Copyright (c) 1998 Todd C. Miller
+<todd.miller@courtesan.com>
+Copyright (c) 2003 Michael A. Davis
+<mike@datanerds.net>

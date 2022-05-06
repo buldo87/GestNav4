@@ -1,0 +1,10 @@
+  If these license terms cause you a real problem,
+contact the author.  */
+
+The file sunrpc/des_impl.c is copyright Eric Young:
+
+Copyright (C) 1992 Eric Young
+Collected from libdes and modified for SECURE RPC
+by Martin Kuck 1994
+This file is distributed under the terms of the GNU
+Lesser General

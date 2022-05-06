@@ -1,0 +1,10 @@
+Inc.
+Copyright (C) Dmitry Golubev <lastguru@mail.ru>,
+2003-2004
+Copyright (C) 2004, Gregory Mokhin
+<mokhin@bog.msu.ru>
+Copyright (C) 2006 Erdal Ronahî
+
+Permission to use, copy, modify, distribute, and sell
+this software and its
+documentation for any purpose is hereby granted

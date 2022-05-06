@@ -1,0 +1,112 @@
+[gestnav4]
+image_maps=0
+
+[2d]
+maxcarsize=150
+mincarsize=120
+
+[3d]
+max_pois=10
+max_pois_on_horizont=1
+max_speedcam=10
+max_speedcam_on_horizont=1
+max_camera=10
+max_camera_on_horizont=1
+
+[autorad] ; obligatoire
+detect=10 ; au choix vitesse mini pour affichage des radars
+;disabled=1 ; au choix
+
+[folders]
+data="/navi_rw/carbone"
+
+[debug]
+reserve_memory=0
+uieffect=1
+experimental_features=1; Fonction pour l'ajout et la modification des radars sur PRIMO.
+screenshotfilename="/captures/ecran_%02d.jpg"
+screenshotsavecameraini=1
+perf_update_autostart=1
+skip_eula=1
+skip_lang_init=1
+;log_1="/media/usb/5A0F-5C6F/primo_debug.log::5"
+
+[device]
+type="lge_ulc40"
+
+[interface]
+map_is_the_first_state=true ;false
+quick_menu_delay=5 ;9 ; au choix tempo activation menu rapide
+clearcity=1 ;0
+select_map_content=0 ; choix pour mapchanger 
+extra_settings=1 ; obligatoire
+show_invalid_contents=1 ; obligatoire
+builtin_themes="SKIN~Default - night|skin_night"
+start_state="st_MainMenu" ; au choix 
+automotive=0 
+3d_dem=1
+theme_night=skin_night
+show_exit=1 ; obligatoire
+show_minimize=0 ; obligatoire
+show_tutorial=0
+demo_enabled=0
+
+[loading]	; gestion de la barre de chargement et annonce écrite
+progressbar_x=150
+progressbar_y=350
+progressbar_end_x=150
+progressbar_end_y=350
+
+[map]
+disable_dem=0
+
+[navigation] 
+show_current_city=1 ; obligatoire
+junction_view_blink_time=500;(0) lane arrow blinks every 0,5 sec
+junction_view_blink_time_no_lane=500;(0) lane arrow blinks every 0,5 sec
+
+[other]
+demo_enabled=0
+
+[poi]
+use_multi_poi_icon = 0 ; evite les doublons des poi
+
+[route]
+hnr_ignored_missing_country_ids=*
+
+[speedcam.disabled_countries]
+_SUI=""
+
+[speedcam.limited_countries]
+_FRA=""
+
+[warning.hva]
+hva_speedcam_icon_type_begin=30
+hva_speedcam_icon_type_end=30
+hva_speedcam_display_style="begin_end,colored_border"
+warn_at_start_of_prealert="always"
+warn_inside_prealert="never"
+warn_at_start="always"
+warn_inside="never"
+warn_at_end="never"
+hva_countries="" ; obligatoire pour affichage des radars 
+
+[warning]
+speedcam_warning=1
+speedcam_visualtype=1
+speedcam_continuous_approach_beep_when_tonal=0
+speedcam_need_approach_beep_on_section_cameras=1 
+max_section_time=600
+
+warn_distances="130:1000,120:850,110:750,100:650,90:600,80:550,70:500,60:400,50:300,40:200,30:150"
+approach_beep_distances="100"
+
+activated_tonal_type="alert"
+overspeed_sound="!disabled"
+approach_beep_spoken_type=0
+overspeed_sound=0
+overspeed_spoken_type=0
+use-road_speedlimit=0
+
+[dr.gps]
+use_speed_signal_as_speed=0

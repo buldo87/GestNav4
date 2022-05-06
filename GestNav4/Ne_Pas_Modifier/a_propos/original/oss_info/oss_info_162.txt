@@ -1,0 +1,10 @@
+Copyright 1995 by Wietse Venema.    Some
+individual files may be covered by other copyrights.
+
+UCData 2.9 (MIT)
+Copyright (c) 2005 Computing Research Labs, New
+Mexico State University
+
+uriparser 0.8.0 (BSD-3-Clause)
+Copyright (c) 2007, Weijia Song
+<songweijia@gmail.com>

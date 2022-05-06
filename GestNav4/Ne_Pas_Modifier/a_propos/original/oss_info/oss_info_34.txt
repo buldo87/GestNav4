@@ -1,0 +1,10 @@
+Copyright (c) 2011 David Hoyt
+<dhoyt@hoytsoft.org>
+Copyright (c) <2011> Intel Corporation
+Copyright (c) <2011> Collabora Ltd.
+Copyright (c) <2011> Thibault Saunier
+<thibault.saunier@collabora.com>
+Copyright (c) 2009 Nokia Corporation
+<multimedia@maemo.org>
+Copyright (c) 2008 David Schleef <ds@schleef.org>
+Copyright (c) 2009 Carl-Anton Ingmarsson

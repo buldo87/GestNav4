@@ -1,0 +1,10 @@
+NO EVENT WILL ANY OF THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY
+DAMAGES CAUSED BY THE USE OR THE
+INABILITY TO USE, OF THE FREETYPE PROJECT.
+
+2. Redistribution
+
+This license grants a worldwide, royalty-free,
+perpetual and irrevocable right and license to use,
+execute, perform, compile, display, copy, create

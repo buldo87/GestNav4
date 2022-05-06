@@ -1,0 +1,10 @@
+
+All licenses are derivative of the MIT/X11 license,
+mostly identical other than no-endorsement clauses
+(e.g. paragraph 4 of The Open Group's license).
+
+These statements are split into two sections: one for
+the code compiled and distributed as part of the
+libxkbcommon shared library and the code
+component of all tests (i.e. everything under src/
+and xkbcommon/, plus the .c and .h files under test

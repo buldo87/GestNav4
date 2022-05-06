@@ -1,0 +1,10 @@
+ Copyright (c) 2000-2003 Johannes Erdfelt
+<johannes@erdfelt.com>
+
+libusb-compat 0.1.5 (LGPL-2.1)
+
+
+LIGHT MEDIA SCANNER 0.5.1 (LGPL-2.1)
+
+
+Linux Kernel 4.1.15 (GPL-2.0)

@@ -1,0 +1,10 @@
+kexec-tools 2.0.11 (GPL-2.0)
+Copyright (C) 2003,2004  Eric Biederman
+(ebiederm@xmission.com)
+Copyright (C) IBM Corporation, 2005.
+Copyright (C) 2008  AXIS Communications AB
+Copyright (C) 2003-2005  Eric Biederman
+(ebiederm@xmission.com)
+Copyright (C) 2003,2004  Eric Biederman
+(ebiederm@xmission.com)
+Copyright (C) 2004 Albert Herranz

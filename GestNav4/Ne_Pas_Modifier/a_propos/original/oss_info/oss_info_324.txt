@@ -1,0 +1,10 @@
+
+The following CMU license covers some of the
+support code for Mach,
+derived from Mach 3.0:
+
+Mach Operating System
+Copyright (C) 1991,1990,1989 Carnegie Mellon
+University
+All Rights Reserved.
+

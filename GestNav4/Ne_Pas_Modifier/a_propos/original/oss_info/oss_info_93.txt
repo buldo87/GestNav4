@@ -1,0 +1,10 @@
+systemd 229 (GPL-2.0,LGPL-2.1)
+Copyright (c) 2010 Lennart Poettering
+
+systemd-serialgetty  (GPL-2.0)
+
+
+systemtap 2.9 (GPL-2.0)
+Copyright (c) 2011 Red Hat, Inc.
+Copyright (c) 2006 IBM Corporation
+

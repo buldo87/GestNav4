@@ -1,0 +1,2 @@
+__Addon_std_GestNav4
+pour gérer les changements de skins sdt / eur

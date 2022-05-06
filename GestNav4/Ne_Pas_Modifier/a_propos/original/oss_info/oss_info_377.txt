@@ -1,0 +1,10 @@
+Permission to use, copy, modify, and distribute this
+software is freely granted, provided that this notice
+is preserved.
+
+Part of stdio-common/tst-printf.c is copyright C E
+Chew:
+
+(C) Copyright C E Chew
+
+Feel free to copy, use and distribute this software

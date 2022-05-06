@@ -1,0 +1,10 @@
+which You create or to which You contribute are
+governed by the terms of this License, including
+without limitation Section 2.2. The Source Code
+version of Covered Code may be distributed only
+under the terms of this License or a future version
+of this License released under Section 6.1, and You
+must include a copy of this License with every copy
+of the Source Code You distribute. You may not
+offer or impose any terms on any Source Code
+version that alters or restricts the applicable version

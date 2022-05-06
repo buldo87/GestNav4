@@ -1,0 +1,10 @@
+
+   somewhere reasonably visible in your
+documentation and in any relevant
+   files or online help data or similar. A reference
+to the ftp site for
+   the source, that is, to
+
+     ftp://ftp.csx.cam.ac.uk/pub/software
+/programming/pcre/
+

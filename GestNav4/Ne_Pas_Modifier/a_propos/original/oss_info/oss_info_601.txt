@@ -1,0 +1,10 @@
+
+_________________________________________________________________________________________________________________________
+
+
+MIT-like License (HarfBuzz)
+
+
+HarfBuzz is licensed under the so-called "Old MIT"
+license.  Details follow.
+For parts of HarfBuzz that are licensed under

@@ -1,0 +1,10 @@
+software is distributed, then this README file must
+be included, with this copyright and no-warranty
+notice unaltered; and any additions, deletions, or
+changes to the original files must be clearly
+indicated in accompanying documentation. 
+     (2) If only executable code is distributed, then
+the accompanying documentation must state that
+"this software is based in part on the work of the
+Independent JPEG Group". 
+     (3) Permission for use of this software is

@@ -1,0 +1,10 @@
+Copyright (c) 2007 The Khronos Group Inc.
+
+glibc 2.23 (BSD-like License (glibc))
+Copyright (C) 1989-2013 Free Software Foundation,
+Inc.
+
+Google Noto Fonts  (Apache-2.0)
+
+
+gstreamer1.0-meta-base  (MIT)

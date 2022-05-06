@@ -1,0 +1,10 @@
+
+     c) You must cause the whole of the work to be
+licensed at no charge to all third parties under the
+terms of this License.
+
+     d) If a facility in the modified Library refers to
+a function or a table of data to be supplied by an
+application program that uses the facility, other
+than as an argument passed when the facility is
+invoked, then you must make a good faith effort to

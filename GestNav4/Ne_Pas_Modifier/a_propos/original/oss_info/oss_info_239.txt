@@ -1,0 +1,10 @@
+     "Package" refers to the collection of files
+distributed by the Copyright Holder, and derivatives
+of that collection of files created through textual
+modification.
+
+     "Standard Version" refers to such a Package if
+it has not been modified, or has been modified in
+accordance with the wishes of the Copyright Holder
+as specified below.
+

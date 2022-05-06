@@ -1,0 +1,10 @@
+in ways explicitly requested by the Copyright Holder.
+
+     "Modified Version" means the Package, if it
+has been changed, and such changes were not
+explicitly requested by the Copyright Holder. 
+
+     "Original License" means this Artistic License as
+Distributed with the Standard Version of the
+Package, in its current version or as it may be
+modified by The Perl Foundation in the future.

@@ -1,0 +1,10 @@
+Copyright (C) 2005 Thomas Vander Stichele
+<thomas@apestaart.org>
+Copyright (C) <2011> Thibault Saunier
+<thibault.saunier@collabora.com>
+Copyright (C) 2011 David Hoyt
+<dhoyt@hoytsoft.org>
+Copyright (C) 2003 Ronald Bultje
+<rbultje@ronald.bitfreak.net>
+Copyright (C) 2010 David Schleef <ds@schleef.org>
+Copyright (C) <2011> Intel Corporation

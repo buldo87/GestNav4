@@ -1,0 +1,10 @@
+Initial Developer and including the name of the
+Initial Developer in (a) the Source Code, and (b) in
+any notice in an Executable version or related
+documentation in which You describe the origin or
+ownership of the Covered Code.
+
+     3.4. Intellectual Property Matters
+
+          (a) Third Party Claims
+          If Contributor has knowledge that a

@@ -1,0 +1,10 @@
+Foundation
+
+base-files 3.0.14 (GPL-2.0)
+
+
+base-passwd 3.5.29 (GPL-2.0)
+
+
+bash 3.2.57 (GPL-2.0)
+

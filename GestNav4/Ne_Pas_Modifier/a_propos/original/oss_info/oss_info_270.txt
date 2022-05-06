@@ -1,0 +1,10 @@
+you comply with Section 4 with respect to the
+Source of the Modified Version.
+
+Aggregating or Linking the Package 
+
+(7)  You may aggregate the Package (either the
+Standard Version or Modified Version) with other
+packages and Distribute the resulting aggregation
+provided that you do not charge a licensing fee for
+the Package.  Distributor Fees are permitted, and

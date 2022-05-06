@@ -1,0 +1,10 @@
+
+lame 3.99.5 (LGPL-2.1)
+Copyright (c) 1999-2000 Mark Taylor
+Copyright (c) 2000-2005 Takehiro Tominaga
+Copyright (c) 2000-2011 Robert Hegemann
+Copyright (c) 2000-2005 Gabriel Bouvigne
+Copyright (c) 2000-2004 Alexander Leidinger
+
+latencytop 0.5 (GPL-2.0)
+Copyright (c) 2008, Intel Corporation

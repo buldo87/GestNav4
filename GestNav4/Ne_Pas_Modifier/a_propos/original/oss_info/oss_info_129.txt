@@ -1,0 +1,10 @@
+
+libcap 2.24 (BSD-3-Clause)
+Copyright (c) The Regents of the University of
+California
+
+libcap 2.22 (BSD-3-Clause)
+
+
+libdrm 2.4.67 (MIT)
+Copyright (c) 2009 VMware, Inc., Palo Alto, CA.,

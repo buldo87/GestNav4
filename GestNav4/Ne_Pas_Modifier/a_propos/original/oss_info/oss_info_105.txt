@@ -1,0 +1,10 @@
+
+Boost 1.62.0 (BSL-1.0)
+Copyright (c) 1998-2005 Beman Dawes, David
+Abrahams.
+Copyright (c) 2004-2007 Rene Rivera.
+
+Botan  (BSD-2-Clause)
+Copyright (C) 1999-2018 The Botan Authors
+
+bzip2 1.0.6 (bzip2-1.0.6)

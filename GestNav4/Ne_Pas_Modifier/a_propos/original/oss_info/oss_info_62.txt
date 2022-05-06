@@ -1,0 +1,10 @@
+Copyright (c) 1992 by Jutta Degener and Carsten
+Bormann, Technische
+Copyright (c) 2011 Apple Inc. All rights reserved.
+Copyright (c) 1994-2014 Free Software Foundation,
+Inc.
+
+libsoup 2.52.2 (LGPL-2.1)
+Copyright (C) 2008 Red Hat, Inc.
+Copyright (C) 2000-2003, Ximian, Inc.
+Copyright (C) 2007 Novell, Inc.

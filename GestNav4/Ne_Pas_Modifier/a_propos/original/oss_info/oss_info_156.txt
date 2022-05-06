@@ -1,0 +1,10 @@
+Copyright (c) 1998, Red Hat Software
+
+Protocol Buffers 2.6.1 (BSD-3-Clause)
+Copyright (c) 2008 Google Inc.
+
+quota 4.03 (BSD-4-Clause)
+Copyright (c) 1980, 1990 Regents of the University
+of California.
+Copyright (C) 2000, 2001 Silicon Graphics, Inc. [SGI]
+

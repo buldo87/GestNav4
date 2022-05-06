@@ -1,0 +1,10 @@
+Code.
+		
+     B.	Alternative License. Provided that
+Recipient is in compliance with the terms of this
+License, Recipient may distribute the source code
+and/or executable version(s) of Covered Code under
+(1) this License; (2) a license identical to this
+License but for only such changes as are necessary
+in order to clarify Recipient’s role as licensor of
+Modifications, without derogation of any of SGI’s

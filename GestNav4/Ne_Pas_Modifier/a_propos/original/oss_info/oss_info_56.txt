@@ -1,0 +1,10 @@
+
+
+libgcrypt 1.6.5 (LGPL-2.1)
+Copyright (C) 2007 Free Software Foundation, Inc.
+Copyright (C) 2013 Jussi Kivilinna
+<jussi.kivilinna@iki.fi>
+Copyright (C) 2013  g10 Code GmbH
+Copyright (C) 2013 Dmitry Eremin-Solenikov
+
+libgpg-error 1.21 (GPL-2.0,LGPL-2.1)

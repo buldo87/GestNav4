@@ -1,0 +1,10 @@
+MIT-like License (motovec)
+
+
+You are hereby granted a copyright license to use,
+modify, and 
+distribute the SOFTWARE so long as this entire
+notice is retained 
+without alteration in any modified and/or
+redistributed versions, 
+and that such modified versions are clearly

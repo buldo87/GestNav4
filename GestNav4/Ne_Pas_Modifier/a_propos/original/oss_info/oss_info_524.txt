@@ -1,0 +1,10 @@
+source code. If you link other code with the library,
+you must provide complete object files to the
+recipients, so that they can relink them with the
+library after making changes to the library and
+recompiling it. And you must show them these
+terms so they know their rights.
+
+We protect your rights with a two-step method: (1)
+we copyright the library, and (2) we offer you this
+license, which gives you legal permission to copy,

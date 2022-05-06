@@ -1,0 +1,10 @@
+Copyright (c) Thomas Schultz <tststs@gmx.de>
+Copyright (c) Vladimir Berezniker @ http:/
+/public.xdi.org/=vmpn
+Copyright (c) Yves Martin  <ymartin59@free.fr>
+
+netbase 5.3 (GPL-2.0)
+Copyright 1994-2010 Peter Tobias, Anthony Towns
+and Marco d'Itri
+
+nettle 2.7.1 (GPL-2.0,LGPL-2.1)

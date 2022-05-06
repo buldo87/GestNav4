@@ -1,0 +1,10 @@
+3. You may otherwise modify your copy of this
+Package in any way, provided that you insert a
+prominent notice in each changed file stating how
+and when you changed that file, and provided that
+you do at least ONE of the following:
+
+     a) place your modifications in the Public
+Domain or otherwise make them Freely Available,
+such as by posting said modifications to Usenet or
+an equivalent medium, or placing the modifications

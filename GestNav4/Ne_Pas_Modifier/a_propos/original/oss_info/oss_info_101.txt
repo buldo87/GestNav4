@@ -1,0 +1,10 @@
+to opensource@lge.com. This offer is valid for a
+period of three years after our last shipment of this
+product. This offer is valid to anyone in receipt of
+this information.
+
+Please be informed that LG Electronics, Inc.
+products may contain open source software listed in
+the tables below.
+
+alsa-state 0.2.0 (MIT)

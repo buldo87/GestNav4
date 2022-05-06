@@ -1,0 +1,10 @@
+
+
+Boris Fomitchev grants Licensee a non-exclusive,
+non-transferable, royalty-free license to use STLport
+and its documentation without fee.
+
+By downloading, using, or copying STLport or any
+portion thereof,  Licensee agrees to abide by the
+intellectual property laws and all other applicable
+laws of the United States of America, and to all of

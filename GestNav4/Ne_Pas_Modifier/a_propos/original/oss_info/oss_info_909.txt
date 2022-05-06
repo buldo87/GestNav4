@@ -1,0 +1,10 @@
+
+
+Unicode-DFS-2016
+
+
+provided "as is" without express or implied
+nder the directories http://www.unicode.org/Public/,
+http://www.unicode.org/reports/, http:/
+/www.unicode.org/cldr/data/, http:/
+/source.icu-project.org/repos/icu/, and http:/

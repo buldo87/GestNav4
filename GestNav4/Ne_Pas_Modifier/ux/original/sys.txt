@@ -1,0 +1,4 @@
+; -*- conf -*-
+
+[device]
+type="lge_ulc40"

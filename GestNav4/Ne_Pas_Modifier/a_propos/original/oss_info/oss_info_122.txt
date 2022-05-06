@@ -1,0 +1,10 @@
+iw 4.3 (ISC)
+Copyright (c) 2007, 2008 Johannes Berg
+Copyright (c) 2007 Andy Lutomirski
+Copyright (c) 2007 Mike Kershaw
+Copyright (c) 2008-2009 Luis R. Rodriguez
+
+iw 3.15 (ISC)
+Copyright (c) 2007, 2008	Johannes Berg
+Copyright (c) 2007		Andy Lutomirski
+Copyright (c) 2007		Mike Kershaw

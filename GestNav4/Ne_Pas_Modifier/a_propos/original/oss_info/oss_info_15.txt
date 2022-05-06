@@ -1,0 +1,10 @@
+Copyright (c) Phil Sutter
+Copyright (c) Dmitry Kasatkin
+Copyright (c) Nikos Mavrogiannopoulos (nmav [at]
+gnutls [dot] org)
+
+dlt-daemon 2.16.0 (MPL-2.0)
+Copyright (C) 2011-2015, BMW AG
+
+e2fsprogs 1.42.9 (GPL-2.0)
+Copyright 1995, 1996, 1997, 1998, 1999, 2000,

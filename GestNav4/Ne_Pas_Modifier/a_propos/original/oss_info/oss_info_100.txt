@@ -1,0 +1,10 @@
+
+Wireless Tools 30 (GPL-2.0)
+Copyright (c) 1996-2008 Jean Tourrilhes
+
+The source code for the above may be obtained free
+of charge from LGE at http://opensource.lge.com.
+LGE will also provide open source code to you on
+CD-ROM for a charge covering the cost of
+performing such distribution (such as the cost of
+media, shipping, and handling) upon email request
