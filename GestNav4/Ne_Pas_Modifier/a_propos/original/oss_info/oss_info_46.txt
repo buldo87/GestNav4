@@ -1,0 +1,10 @@
+Copyright (C) 2004 Silicon Graphics, Inc. Jesse
+Barnes <jbarnes@sgi.com>
+Copyright (C) 2004 Khalid Aziz
+<khalid.aziz@hp.com> Hewlett Packard Co
+Copyright (C) 2005 Zou Nan hai
+<nanhai.zou@intel.com> Intel Corp
+Copyright (C) 2013 Geert Uytterhoeven
+
+kmod 22 (GPL-2.0,LGPL-2.1)
+

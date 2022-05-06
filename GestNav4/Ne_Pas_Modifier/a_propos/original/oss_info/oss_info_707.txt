@@ -1,0 +1,10 @@
+of the software without specific prior written
+permission.
+Silicon Graphics makes no representation about the
+suitability 
+of this software for any purpose. It is provided "as
+is"
+without any express or implied warranty.
+
+SILICON GRAPHICS DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS 

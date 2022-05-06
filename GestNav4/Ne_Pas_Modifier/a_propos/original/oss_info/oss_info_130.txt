@@ -1,0 +1,10 @@
+USA
+Copyright (C) 2013 Rob Clark
+<robclark@freedesktop.org>
+Copyright 2012 Red Hat Inc.
+Copyright (c) 2014 NVIDIA Corporation
+Copyright 2014 Advanced Micro Devices, Inc.
+Copyright 2008 Tungsten Graphics  Jakob
+Bornecrantz <jakob@tungstengraphics.com>
+Copyright 2008 Intel Corporation Jesse Barnes
+<jesse.barnes@intel.com>

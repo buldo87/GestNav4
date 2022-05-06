@@ -1,0 +1,10 @@
+LEGAL file in all copies Contributor makes available
+thereafter and shall take other steps (such as
+notifying appropriate mailing lists or newsgroups)
+reasonably calculated to inform those who received
+the Covered Code that new knowledge has been
+obtained.
+
+          (b) Contributor APIs
+          If Contributor's Modifications include an
+application programming interface and Contributor

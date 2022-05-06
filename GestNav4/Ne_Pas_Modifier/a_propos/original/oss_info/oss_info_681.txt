@@ -1,0 +1,10 @@
+of the software without specific, written prior
+permission.  Red
+Hat makes no representations about the suitability
+of this software
+for any purpose.  It is provided "as is" without
+express or implied
+warranty.
+
+RED HAT DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE,

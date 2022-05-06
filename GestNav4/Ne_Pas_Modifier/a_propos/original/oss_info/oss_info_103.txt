@@ -1,0 +1,10 @@
+AudioManager 7.0 (MIT)
+Copyright (C) 2012, GENIVI Alliance, Inc.
+Copyright (C) 2012, BMW AG
+
+babeltrace 1.3.1 (MIT)
+Copyright (c) September 26, 2010 Mathieu
+Desnoyers 
+Copyright 2017 Philippe Proulx
+<pproulx@efficios.com>
+Copyright 2016 Jérémie Galarneau

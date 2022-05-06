@@ -1,0 +1,10 @@
+
+_________________________________________________________________________________________________________________________
+
+
+MIT-like License (lsof)
+
+
+This software is not subject to any license of the
+American Telephone and Telegraph Company or the
+Regents of the University of California.

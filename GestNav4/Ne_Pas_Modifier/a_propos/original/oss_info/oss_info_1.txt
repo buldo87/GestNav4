@@ -1,0 +1,10 @@
+LGE Open Source Software Notice
+
+This product from  LG Electronics, Inc.  ("LGE") 
+contains the open source software detailed below.
+Please refer to the indicated open source licenses (as
+are included following this notice) for the terms and
+conditions of their use.
+
+acl 2.2.52 (GPL-2.0,LGPL-2.1)
+Copyright (C) 1999, 2000 Andreas Gruenbacher,

@@ -1,0 +1,10 @@
+
+media-manager  (MPL-2.0)
+Copyright (c) 2014, Jaguar Land Rover
+
+mp4v2 2.0.0 (MPL-1.1)
+Copyright (C) Cisco Systems Inc. 2001.
+Copyright (C) Ximpo Group Ltd. 2003, 2004. 
+Copyright (C) 2008 Kona Blend.
+
+MPEG audio decoder library 0.15.1b (GPL-2.0)

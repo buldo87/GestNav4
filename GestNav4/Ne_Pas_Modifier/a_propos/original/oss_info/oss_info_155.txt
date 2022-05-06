@@ -1,0 +1,10 @@
+Pipe Viewer 1.5.3 (Artistic-2.0)
+
+
+Pixman 0.32.8 (MIT)
+Copyright (c) 2000 SuSE, Inc.
+Copyright (c) 2007 Red Hat, Inc.
+Copyright (c) 2001-2014 Free Software Foundation,
+Inc.
+
+popt 1.16 (X11)

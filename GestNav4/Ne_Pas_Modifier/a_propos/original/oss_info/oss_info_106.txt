@@ -1,0 +1,10 @@
+
+
+Cantarell Fonts 0.0.21 (OFL-1.1)
+Copyright (c) 2009--2016, The Cantarell Authors
+
+curl 7.47.1 (curl)
+Copyright (c) 1996 - 2016, Daniel Stenberg,
+<daniel@haxx.se>.
+
+

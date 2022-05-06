@@ -1,0 +1,10 @@
+Common API C++ dbus runtime 3.1.5 (MPL-2.0)
+Copyright (c) 2013-2015 Bayerische Motoren Werke
+Aktiengesellschaft (BMW AG)
+
+Common API C++ SOMEIP runtime 3.1.5 (MPL-2.0)
+Copyright (c) 2014-2017 Bayerische Motoren Werke
+Aktiengesellschaft (BMW AG)
+
+CommonAPI runtime 3.1.5 (MPL-2.0)
+Copyright (c) 2013-2015 Bayerische Motoren Werke

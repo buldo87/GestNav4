@@ -1,0 +1,10 @@
+or Modifications or the combination of the Original
+Code and Modifications, in each case including
+portions thereof.
+	
+     1.4 "Hardware" means any physical device that
+accepts input, processes input, stores the results of
+processing, and/or provides output.
+	
+     1.5 "Larger Work" means a work which
+combines Covered Code or portions thereof with

@@ -1,0 +1,10 @@
+<plewis@inetarena.com>
+
+libimxvpuapi 0.10.2 (LGPL-2.1)
+Copyright (c) 2014 Carlos Rafael Giani
+
+libnl 3.2.25 (LGPL-2.1)
+Copyright (c) 2003-2010 Thomas Graf
+<tgraf@suug.ch>
+
+libproxy 0.4.11 (LGPL-2.1)

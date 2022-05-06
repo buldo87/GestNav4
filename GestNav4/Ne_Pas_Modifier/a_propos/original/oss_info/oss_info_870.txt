@@ -1,0 +1,10 @@
+substance or structure of the Original Code and/or
+any addition to or deletion from previous
+Modifications. When Covered Code is released as a
+series of files, a Modification is:
+		
+          A. Any addition to the contents of a file
+containing Original Code and/or any addition to or
+deletion from previous Modifications.
+		
+          B. Any new file that contains any part of

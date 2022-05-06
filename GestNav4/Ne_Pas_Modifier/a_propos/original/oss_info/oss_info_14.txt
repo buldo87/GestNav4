@@ -1,0 +1,10 @@
+<alecm@crypto.dircon.co.uk>
+ Original CrackLib author for releases up to v2.7
+Copyright (c) Nathan Neulinger
+<nneul@neulinger.org>
+ version 3.0 modifications and new release
+
+cryptodev-linux 1.8 (GPL-2.0)
+Copyright (c) Michal Ludvig
+Copyright (c) Nikos Mavrogiannopoulos
+Copyright (c) Michael Weiser

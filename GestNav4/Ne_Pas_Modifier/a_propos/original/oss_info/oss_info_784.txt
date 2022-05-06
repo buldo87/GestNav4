@@ -1,0 +1,10 @@
+combines Covered Software with other material, in
+a separate file or files, that is not Covered Software.
+
+     1.8. "License" means this document.
+
+     1.9. "Licensable" means having the right to
+grant, to the maximum extent possible, whether at
+the time of the initial grant or subsequently, any
+and all of the rights conveyed by this License.
+

@@ -1,0 +1,10 @@
+that forbid distributors to deny you these rights or
+to ask you to surrender these rights. These
+restrictions translate to certain responsibilities for
+you if you distribute copies of the library or if you
+modify it.
+
+For example, if you distribute copies of the library,
+whether gratis or for a fee, you must give the
+recipients all the rights that we gave you. You must
+make sure that they, too, receive or can get the

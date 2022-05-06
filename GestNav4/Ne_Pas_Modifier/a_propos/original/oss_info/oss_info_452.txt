@@ -1,0 +1,10 @@
+clearly indicated in accompanying documentation.
+The copyright notices of the unaltered, original files
+must be preserved in all copies of source files.
+
+     o Redistribution in binary form must provide a
+disclaimer that states that the software is based in
+part of the work of the FreeType Team, in the
+distribution documentation. We also encourage you
+to put an URL to the FreeType web page in your
+documentation, though this isn't mandatory.

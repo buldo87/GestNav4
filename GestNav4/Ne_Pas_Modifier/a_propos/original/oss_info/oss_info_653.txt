@@ -1,0 +1,10 @@
+INABILITY TO USE THE SOFTWARE. Motorola
+assumes no responsibility 
+for the maintenance and support of the SOFTWARE.
+
+
+_________________________________________________________________________________________________________________________
+
+
+MIT-like License (ncurses)
+

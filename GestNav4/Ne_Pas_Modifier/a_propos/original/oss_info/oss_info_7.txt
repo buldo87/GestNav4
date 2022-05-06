@@ -1,0 +1,10 @@
+
+bash-completion 2.1 (GPL-2.0)
+
+
+bc 1.06 (GPL-2.0)
+Copyright (c) 1998, 2001, 2003, 2014 Free Software
+Foundation, Inc.
+
+bison 2.3 (GPL-2.0)
+Copyright (C) 2002, 2003, 2004, 2005, 2006 Free

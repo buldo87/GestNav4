@@ -1,0 +1,10 @@
+1. This software is distributed in the hope that it
+will be useful,
+   but WITHOUT ANY WARRANTY; without even
+the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+2. The origin of this software must not be
+misrepresented, either by
+   explicit claim or by omission. In practice, this

@@ -1,0 +1,10 @@
+                       Dustin Kirkland
+<kirkland@canonical.com>
+Copyright (C) 1994-1998 Michael K. Johnson
+<johnsonm@redhat.com>
+Copyright (C) 2002-2006 Dmitry V. Levin
+<ldv@altlinux.org>
+
+kernel-module-imx-gpu-viv 5.0.11.p8.6 (GPL-2.0)
+Copyright (c) 2014 - 2016 Vivante Corporation
+

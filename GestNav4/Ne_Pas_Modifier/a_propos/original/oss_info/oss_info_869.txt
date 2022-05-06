@@ -1,0 +1,10 @@
+code not governed by the terms of this License.
+	
+     1.6 "Licensable" means having the right to
+grant, to the maximum extent possible, whether at
+the time of the initial grant or subsequently
+acquired, any and all of the rights conveyed herein.
+	
+     1.7 "License" means this document.
+	
+     1.8 "Modifications" means any addition to the

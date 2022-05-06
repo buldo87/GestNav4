@@ -1,0 +1,10 @@
+particular version of the License, Recipient may, for
+the duration of the license, continue to use it under
+the terms of that version, or choose to use such
+Covered Code under the terms of any subsequent
+version published by SGI. Subject to the provisions
+of Sections 3 and 4 of this License, only SGI may
+modify the terms applicable to Covered Code
+created under this License.
+
+9. DISCLAIMER OF WARRANTY. COVERED CODE IS

@@ -1,0 +1,10 @@
+Copyright (c) 2007, Sebastian Pipping
+<webmaster@hartwork.org>
+
+
+util-macros 1.19.0 (MIT-like License (util-macros))
+Copyright 2005 Red Hat, Inc.
+Copyright (c) 2005, 2006, Oracle and/or its affiliates.
+
+volatile-binds  (MIT)
+

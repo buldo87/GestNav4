@@ -1,0 +1,10 @@
+will support it.) So far as we are aware, there are
+no patent restrictions on the remaining code.
+
+The IJG distribution formerly included code to read
+and write GIF files. To avoid entanglement with the
+Unisys LZW patent, GIF reading support has been
+removed altogether, and the GIF writer has been
+simplified to produce "uncompressed GIFs". This
+technique does not use the LZW algorithm; the
+resulting GIF files are larger than usual, but are

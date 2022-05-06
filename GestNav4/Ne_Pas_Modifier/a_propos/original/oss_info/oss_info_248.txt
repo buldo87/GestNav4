@@ -1,0 +1,10 @@
+Package as a product of your own.  You may
+embed this Package's interpreter within an
+executable of yours (by linking); this shall be
+construed as a mere form of aggregation, provided
+that the complete Standard Version of the
+interpreter is so embedded.
+
+6. The scripts and library files supplied as input to
+or produced as output from the programs of this
+Package do not automatically fall under the

@@ -1,0 +1,10 @@
+<josh@cooper.edu>
+                       Chuck Martin
+<cmartin@bigfoot.com>
+                       Alexey Gladkov
+<gladkov.alexey@gmail.com>
+Copyright (C) 2011 Alexey Gladkov.
+Copyright (C) 2011 Alexey Gladkov,
+portions also  Copyright (C) 2011 Canonical Ltd.
+          Authors: Seth Forshee
+<seth.forshee@canonical.com>

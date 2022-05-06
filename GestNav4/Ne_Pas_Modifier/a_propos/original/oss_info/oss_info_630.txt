@@ -1,0 +1,10 @@
+other dealings in this Software without prior written
+authorization from the authors.
+
+-------------------------------------------------------------------------------
+
+Copyright (c) 1993, 1994, 1995, 1996 by Silicon
+Graphics Computer Systems, Inc.
+
+Permission to use, copy, modify, and distribute this
+software and its documentation for any purpose and

@@ -1,0 +1,10 @@
+include this file along
+with any binary distributions derived from the GNU
+C Library.
+
+
+All code incorporated from 4.4 BSD is distributed
+under the following
+license:
+
+Copyright (C) 1991 Regents of the University of

@@ -1,0 +1,10 @@
+and/or data prepared so as to be conveniently
+linked with application programs (which use some
+of those functions and data) to form executables.
+
+The "Library", below, refers to any such software
+library or work which has been distributed under
+these terms. A "work based on the Library" means
+either the Library or any derivative work under
+copyright law: that is to say, a work containing the
+Library or a portion of it, either verbatim or with

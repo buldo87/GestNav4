@@ -1,0 +1,10 @@
+
+ncurses 5.9 (MIT-like License (ncurses))
+Copyright (c) 1998-2004,2006 Free Software
+Foundation, Inc.
+
+Open webOS 2.14.0 (Apache-2.0)
+
+
+OpenGL Sample implementation  (SGI-B-1.0)
+Copyright (c) 1991-2000 Silicon Graphics, Inc.

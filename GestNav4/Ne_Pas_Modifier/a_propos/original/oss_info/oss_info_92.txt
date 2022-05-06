@@ -1,0 +1,10 @@
+Copyright (c) Nitin Vashisth
+Copyright (c) Ananth Mavinakayanahalli
+Copyright (c) Daniel Stekloff
+Copyright (c) Mohan Kumar
+Copyright (c) Nitin Vashisth
+
+sysstat 11.2.0 (GPL-2.0)
+Copyright (c) 1999-2015 by Sebastien GODARD
+(sysstat <at> orange.fr)
+

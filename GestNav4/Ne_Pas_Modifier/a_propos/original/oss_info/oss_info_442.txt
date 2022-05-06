@@ -1,0 +1,10 @@
+explicit license. The license affects thus the
+FreeType font engine, the test programs,
+documentation and makefiles, at the very least.
+
+This license was inspired by the BSD, Artistic, and
+IJG (Independent JPEG Group) licenses, which all
+encourage inclusion and use of free software in
+commercial and freeware products alike. As a
+consequence, its main points are that:
+

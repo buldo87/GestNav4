@@ -1,0 +1,10 @@
+hostap-utils 0.4.7 (GPL-2.0)
+Copyright (c) 2002-2004, Jouni Malinen
+<jkmaline@cc.hut.fi>
+
+imx-alsa-plugins 1.0.26 (GPL-2.0)
+Copyright (C) 2001-2013 Free Software Foundation,
+Inc.
+
+imx-gst1.0-plugin 4.1.4 (LGPL-2.1)
+Copyright (c) 2013, Freescale Semiconductor, Inc.

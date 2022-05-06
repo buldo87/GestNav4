@@ -1,0 +1,10 @@
+USE OF THE SOFTWARE, EVEN IF NICTA HAS
+BEEN ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGES.
+
+If applicable legislation implies warranties or
+conditions, or imposes obligations or liability on
+NICTA in respect of the Software that cannot be
+wholly or partly excluded, restricted or modified,
+NICTA's liability is limited, to the full extent
+permitted by the applicable legislation, at its option,

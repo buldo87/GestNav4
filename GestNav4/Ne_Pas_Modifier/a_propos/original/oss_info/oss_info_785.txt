@@ -1,0 +1,10 @@
+     1.10. "Modifications" means any of the
+following:
+
+          (a) any file in Source Code Form that
+results from an addition to, deletion from, or
+modification of the contents of Covered Software; or
+
+          (b) any new file in Source Code Form that
+contains any Covered Software.
+

@@ -1,0 +1,10 @@
+
+MIT-like License (libxkbcommon)
+
+
+The following is a list of all copyright notices and
+license statements which appear in the xkbcommon
+source tree.
+
+If making new contributions, the first form (i.e.
+Daniel Stone, Ran Benita, etc) is vastly preferred.

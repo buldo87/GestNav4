@@ -1,0 +1,10 @@
+of this License. (Exception: if the Program itself is
+interactive but does not normally print such an
+announcement, your work based on the Program is
+not required to print an announcement.)
+
+These requirements apply to the modified work as a
+whole. If identifiable sections of that work are not
+derived from the Program, and can be reasonably
+considered independent and separate works in
+themselves, then this License, and its terms, do not

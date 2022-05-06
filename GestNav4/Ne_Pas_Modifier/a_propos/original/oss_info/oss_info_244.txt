@@ -1,0 +1,10 @@
+an equivalent medium, or placing the modifications
+on a major archive site such as uunet.uu.net, or by
+allowing the Copyright Holder to include your
+modifications in the Standard Version of the
+your corporation or organization.
+     c) rename any non-standard executables so the
+names do not conflict with standard executables,
+which must also be provided, and provide a
+separate manual page for each non-standard
+executable that clearly documents how it differs

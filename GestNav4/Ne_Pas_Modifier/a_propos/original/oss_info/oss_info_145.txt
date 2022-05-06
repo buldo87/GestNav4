@@ -1,0 +1,10 @@
+Copyright (c) 2002, Purdue Research Foundation.
+
+LTTng-modules 2.7.1 (MIT)
+Copyright (C) 2008-2016 Mathieu Desnoyers
+<mathieu.desnoyers@efficios.com>
+Copyright 2010 - Mathieu Desnoyers
+<mathieu.desnoyers@efficios.com>
+
+lttng-ust 2.7.1 (MIT)
+Copyright (C) 2009-2012 Mathieu Desnoyers

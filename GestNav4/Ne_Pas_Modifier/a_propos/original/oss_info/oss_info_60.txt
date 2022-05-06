@@ -1,0 +1,10 @@
+
+
+librsvg 2.40.15 (LGPL-2.1)
+Copyright (C) 2000 Eazel, Inc.
+Copyright (C) 2002 Dom Lachowicz
+<cinamod@hotmail.com>
+Copyright (C) 2006 Yangli Hector Yee
+Copyright (C) 2003, 2004, 2005 Caleb Moore
+<c.moore@student.unsw.edu.au>
+Copyright (C) 2002, 2003, 2004, 2005 Dom

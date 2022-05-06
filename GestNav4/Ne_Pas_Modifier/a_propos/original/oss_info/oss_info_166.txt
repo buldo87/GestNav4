@@ -1,0 +1,10 @@
+Copyright (c) 2011-2012 Collabora, Ltd.
+Copyright (c) 2010 Red Hat <mjg@redhat.com>
+
+weston-init 1.0 (MIT)
+
+
+World Sunlight Map  (MIT)
+Copyright (c) 2009, J.P.Westerhof
+<jurgen.westerhof@gmail.com>
+

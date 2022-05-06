@@ -1,0 +1,10 @@
+the Library is void, and will automatically terminate
+your rights under this License. However, parties
+who have received copies, or rights, from you
+under this License will not have their licenses
+terminated so long as such parties remain in full
+compliance.
+
+9. You are not required to accept this License, since
+you have not signed it. However, nothing else
+grants you permission to modify or distribute the

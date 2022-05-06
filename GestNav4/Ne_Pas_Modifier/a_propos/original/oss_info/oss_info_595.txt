@@ -1,0 +1,10 @@
+The Contributing Authors and Group 42, Inc.
+specifically permit, without fee, and encourage the
+use of this source code as a component to
+supporting the PNG file format in commercial
+products.  If you use this source code in a product,
+acknowledgment is not required but would be
+appreciated.
+
+
+A "png_get_copyright" function is available, for

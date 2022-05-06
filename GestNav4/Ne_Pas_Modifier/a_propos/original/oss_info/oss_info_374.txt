@@ -1,0 +1,10 @@
+   should also be given in the documentation.
+However, this condition is not
+   intended to apply to whole chains of software. If
+package A includes PCRE,
+   it must acknowledge it, but if package B is
+software that includes package
+   A, the condition is not imposed on package B
+(unless it uses PCRE
+   independently).
+

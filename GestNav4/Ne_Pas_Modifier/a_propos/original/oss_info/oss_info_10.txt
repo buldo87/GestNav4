@@ -1,0 +1,10 @@
+ca-certificates 20160104 (GPL-2.0,MPL-2.0)
+Copyright (c) 2003 Fumitoshi UKAI
+<ukai@debian.or.jp>
+Copyright (c) 2009 Philipp Kern
+<pkern@debian.org>
+Copyright (c) 2011 Michael Shuler
+<michael@pbandjelly.org>
+Copyright (c) Various Debian Contributors
+Original Copyright: 1994-2000 Netscape
+Communications Corporation(certdata.txt <= CVS

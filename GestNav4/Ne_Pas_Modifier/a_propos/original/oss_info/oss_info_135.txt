@@ -1,0 +1,10 @@
+Copyright (c) 1996, David Mazieres <dm@uun.org>
+Copyright (c) 2008, Damien Miller
+<djm@openbsd.org>
+Copyright (c) 1996, David Mazieres <dm@uun.org>
+Copyright (c) 2008, Damien Miller
+<djm@openbsd.org>
+
+libffi 3.2.1 (MIT)
+Copyright (c) 1996-2012 Anthony Green, Red Hat,
+Inc and others.

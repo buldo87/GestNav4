@@ -1,0 +1,10 @@
+the Library by being compiled or linked with it, is
+called a "work that uses the Library". Such a work,
+in isolation, is not a derivative work of the Library,
+and therefore falls outside the scope of this License.
+
+However, linking a "work that uses the Library"
+with the Library creates an executable that is a
+derivative of the Library (because it contains
+portions of the Library), rather than a "work that
+uses the library". The executable is therefore

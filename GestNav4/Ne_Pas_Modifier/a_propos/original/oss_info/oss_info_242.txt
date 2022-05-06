@@ -1,0 +1,10 @@
+the source form of the Standard Version of this
+Package without restriction, provided that you
+duplicate all of the original copyright notices and
+associated disclaimers.
+
+2. You may apply bug fixes, portability fixes and
+other modifications derived from the Public Domain
+or from the Copyright Holder.  A Package modified
+in such a way shall still be considered the Standard
+Version.

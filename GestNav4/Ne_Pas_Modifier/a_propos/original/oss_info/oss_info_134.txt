@@ -1,0 +1,10 @@
+Copyright (c) 1993 The Regents of the University of
+California.
+Copyright (c) 1998 Todd C. Miller
+<todd.miller@courtesan.com>
+Copyright (c) 2003 Michael A. Davis
+<mike@datanerds.net>
+Copyright (c) 2007 Sun Microsystems
+Copyright (c) 2002 Christopher Clark
+Copyright (c) 2006 Maxim Yegorushkin
+<maxim.yegorushkin@gmail.com>

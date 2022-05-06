@@ -1,0 +1,10 @@
+Copyright (c) 2002 Jindrich Makovicka
+<makovick@gmail.com>
+Copyright (c) 2011 Stefano Sabatini
+
+gst-plugins-bad 1.8.1 (GPL-2.0,LGPL-2.1)
+Copyright (c) 1994-2014 Free Software Foundation,
+Inc.
+Copyright (c) 2015 Matthew Waters
+<matthew@centricular.com>
+Copyright (c) 2010 Thiago Santos

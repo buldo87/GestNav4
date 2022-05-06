@@ -1,0 +1,10 @@
+choice. The Source Code can be in a compressed or
+archival form, provided the appropriate
+decompression or de-archiving software is widely
+available for no charge.
+
+     1.12. "You" (or "Your") means an individual or
+a legal entity exercising rights under, and complying
+with all of the terms of, this License or a future
+version of this License issued under Section 6.1. For
+legal entities, "You" includes any entity which

@@ -1,0 +1,10 @@
+
+openssl 1.0.2h (OpenSSL)
+Copyright (c) 1998-2016 The OpenSSL Project.
+
+opkg-arch-config 1.0 (MIT)
+
+
+orc 0.4.24 (BSD-2-Clause,BSD-3-Clause)
+Copyright 2002 - 2009 David A. Schleef
+<ds@schleef.org>

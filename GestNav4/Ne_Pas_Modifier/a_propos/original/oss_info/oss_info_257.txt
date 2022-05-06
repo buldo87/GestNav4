@@ -1,0 +1,10 @@
+organization(s) named in the copyright notice for
+the entire Package.
+
+     "Contributor" means any party that has
+contributed code or other material to the Package,
+in accordance with the Copyright Holder's
+procedures.
+
+     "You" and "your" means any person who
+would like to copy, distribute, or modify the

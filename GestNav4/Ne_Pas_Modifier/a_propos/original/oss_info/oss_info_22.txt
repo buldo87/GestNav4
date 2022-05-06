@@ -1,0 +1,10 @@
+Copyright (C) 1990, 1991, 1993 Free Software
+Foundation, Inc.
+
+gdk-pixbuf 2.32.3 (GPL-2.0,LGPL-2.1)
+Copyright (C) 1999 The Free Software Foundation
+Copyright (C) 2000 Red Hat, Inc
+Copyright (C) 2008 Dominic Lachowicz
+Copyright (C) 2008 Alberto Ruiz
+
+GENIVI Node State Manager (NSM) 2.0.0 (MPL-2.0)

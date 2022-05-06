@@ -1,0 +1,10 @@
+scanners generated using flex;
+for them, you are not even bound by the above
+copyright.
+
+
+_________________________________________________________________________________________________________________________
+
+
+BSD-like License (glibc)
+

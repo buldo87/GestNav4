@@ -1,0 +1,10 @@
+
+
+sudo 1.8.15 (MIT-like License (sudo))
+Copyright (c) 2009-2015 Todd C. Miller
+<Todd.Miller@courtesan.com>
+
+systemd-compat-units  (MIT)
+
+
+tcp-wrappers 7.6 (BSD-like License (tcp-wrappers))

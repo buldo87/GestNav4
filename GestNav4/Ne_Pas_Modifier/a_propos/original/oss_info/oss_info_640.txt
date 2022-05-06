@@ -1,0 +1,10 @@
+
+END OF SOFTWARE COPYRIGHT/LICENSE
+STATEMENTS
+
+BEGINNING OF LICENSE STATEMENTS FOR
+UNDISTRIBUTED DATA FILES IN test/data,derived
+from xkeyboard-config:
+
+-------------------------------------------------------------------------------
+

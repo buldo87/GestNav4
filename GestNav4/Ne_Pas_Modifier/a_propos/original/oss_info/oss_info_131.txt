@@ -1,0 +1,10 @@
+
+libevdev 1.4.6 (MIT)
+Copyright (c) 2013 Red Hat, Inc.
+Copyright (c) 2013 David Herrmann
+<dh.herrmann@gmail.com>
+
+libevent 2.0.22 (BSD-3-Clause,MIT-like License
+(OpenBSD))
+Copyright (c) 2000-2007 Niels Provos
+<provos@citi.umich.edu>

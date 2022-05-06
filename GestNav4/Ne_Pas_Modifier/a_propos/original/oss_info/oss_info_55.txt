@@ -1,0 +1,10 @@
+Copyright (C) 2015 - Tobias Jakobi
+Copyright (C) 2015 Etnaviv Project
+
+liberation-fonts 1.04 (GPL-2.0)
+
+
+libevdev 1.4.6 (GPL-2.0)
+Copyright (c) 1999-2002 Vojtech Pavlik
+
+libfuse 2.9.4 (GPL-2.0,LGPL-2.1)

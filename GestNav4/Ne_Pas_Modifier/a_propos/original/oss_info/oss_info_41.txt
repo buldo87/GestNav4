@@ -1,0 +1,10 @@
+init-ifupdown 1.0 (GPL-2.0)
+
+
+initscripts 1.0 (GPL-2.0)
+
+
+iptables 1.6.0 (GPL-2.0)
+
+
+kbd 2.0.3 (GPL-2.0)

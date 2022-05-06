@@ -1,0 +1,10 @@
+Copyright (C) 1997 - 2002, Makoto Matsumoto and
+Takuji Nishimura
+
+perl 5.22.1 (Artistic-1.0-Perl)
+Copyright (C) 1993-2017 by Larry Wall and others.
+
+persistence-client-library 1.0.0 (MIT)
+Copyright (C) 2016 Mentor Graphics.
+(c) copyright 2012 Company XS Embedded GmbH
+

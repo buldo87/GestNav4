@@ -1,0 +1,10 @@
+babeltrace 1.3.1 (GPL-2.0,LGPL-2.1)
+Copyright (c) September 26, 2010 Mathieu
+Desnoyers 
+Copyright 2017 Philippe Proulx
+<pproulx@efficios.com>
+Copyright 2016 Jérémie Galarneau
+<jeremie.galarneau@efficios.com>
+Copyright 2010 - Mathieu Desnoyers
+<mathieu.desnoyers@efficios.com>
+Copyright (c) 2015 EfficiOS Inc. and Linux

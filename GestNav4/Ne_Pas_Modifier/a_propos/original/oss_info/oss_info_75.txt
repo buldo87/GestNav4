@@ -1,0 +1,10 @@
+Copyright (c) Free Software Foundation, Inc.
+Copyright (c) Henrik Holst
+<henrik.holst2@gmail.com>
+Copyright (c) Jiang Lei <tristone@deluxe.ocn.ne.jp>
+Copyright (c) Kai Sommerfeld <kso@openoffice.org>
+Copyright (c) Karl Ove Hufthammer.
+Copyright (c) Michael Sobolev
+Copyright (c) Nobuyuki Tsuchimura
+<tutimura@nn.iij4u.or.jp>
+Copyright (c) Sylvain Glaize <mokona@puupuu.org>

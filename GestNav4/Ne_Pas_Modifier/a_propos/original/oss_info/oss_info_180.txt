@@ -1,0 +1,10 @@
+interpreted to prohibit Licensor from licensing under
+different terms from this License any Original Work
+that Licensor otherwise would have a right to
+license. 
+
+5) This section intentionally omitted. 
+
+6) Attribution Rights. You must retain, in the
+Source Code of any Derivative Works that You
+create, all copyright, patent or trademark notices

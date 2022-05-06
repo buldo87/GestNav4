@@ -1,0 +1,10 @@
+
+glew  (BSD-3-Clause,MIT)
+Copyright (C) 2002-2007, Milan Ikits <milan
+ikits[]ieee org>
+Copyright (C) 2002-2007, Marcelo E. Magallon
+<mmagallo[]debian org>
+Copyright (C) 2002, Lev Povalahev
+
+Copyright (C) 1999-2007  Brian Paul   All Rights
+Reserved.

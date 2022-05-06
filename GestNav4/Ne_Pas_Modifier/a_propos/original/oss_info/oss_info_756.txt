@@ -1,0 +1,10 @@
+You may also choose to use such Covered Code
+under the terms of any subsequent version of the
+License published by Netscape. No one other than
+Netscape has the right to modify the terms
+applicable to Covered Code created under this
+License.
+
+     6.3. Derivative Works
+     If You create or use a modified version of this
+License (which you may only do in order to apply

@@ -1,0 +1,10 @@
+
+
+Artistic-1.0-Perl
+
+
+The "Artistic License"
+
+Preamble
+
+The intent of this document is to state the

@@ -1,0 +1,10 @@
+<mathieu.desnoyers@efficios.com>
+Copyright (C) 2010 Pierre-Marc Fournier, Nils
+Carlson, David Goulet and others.
+Copyright (C) 1994-2013 Free Software Foundation,
+Inc.
+Copyright (C) 2013 - David Goulet
+<dgoulet@efficios.com>
+
+Lua 5.1.4 (MIT)
+Copyright (c) 1994-2008 Lua.org, PUC-Rio.

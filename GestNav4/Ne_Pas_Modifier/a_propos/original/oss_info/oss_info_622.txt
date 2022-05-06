@@ -1,0 +1,10 @@
+/), and another for the test data under test/data,
+which is distributed with the xkbcommon source
+tarball, but not installed to the system.
+
+BEGINNING OF SOFTWARE COPYRIGHT/LICENSE
+STATEMENTS:
+
+-------------------------------------------------------------------------------
+
+Copyright(c) 2009-2012 Daniel Stone

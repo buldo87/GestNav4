@@ -1,0 +1,10 @@
+perpetual, sublicenseable license, under patent
+claims owned or controlled by the Licensor that are
+embodied in the Original Work as furnished by the
+Licensor, to make, use, sell and offer for sale the
+Original Work and Derivative Works. 
+
+3) Grant of Source Code License. The term "Source
+Code" means the preferred form of the Original
+Work for making modifications to it and all
+available documentation describing how to modify

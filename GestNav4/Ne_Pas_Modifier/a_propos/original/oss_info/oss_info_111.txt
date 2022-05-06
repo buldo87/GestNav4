@@ -1,0 +1,10 @@
+dbus-glib 0.106 (AFL-2.1)
+
+
+dri2proto 2.8 (MIT-like License (dri2proto))
+Copyright (c) 2007 Red Hat, Inc.
+
+Droid Sans  (Apache-2.0)
+Copyright (c) 2005-2008, The Android Open Source
+Project
+

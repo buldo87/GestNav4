@@ -1,0 +1,10 @@
+
+The file redblack.c bears the following license:
+
+   Copyright (c) 2001 Emin Martinian
+  
+   Redistribution and use in source and binary
+forms, with or without
+   modification, are permitted provided that neither
+the name of Emin
+   Martinian nor the names of any contributors are

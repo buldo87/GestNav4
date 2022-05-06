@@ -1,0 +1,10 @@
+libxkbcommon 0.5.0 (MIT-like License
+(libxkbcommon))
+
+
+libxml2 2.9.4 (MIT)
+Copyright (c) 1998-2012 Daniel Veillard.
+
+libzen 0.4.34 (Zlib)
+Copyright (c) 2002-2014, MediaArea.net SARL.
+

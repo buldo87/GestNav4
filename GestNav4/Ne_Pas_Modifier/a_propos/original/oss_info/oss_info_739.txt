@@ -1,0 +1,10 @@
+of this License or the recipients' rights hereunder.
+However, You may include an additional document
+offering the additional rights described in Section
+3.5.
+
+     3.2. Availability of Source Code. Any
+Modification which You create or to which You
+contribute must be made available in Source Code
+form under the terms of this License either on the
+same media as an Executable version or via an

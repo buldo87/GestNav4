@@ -1,0 +1,10 @@
+Olle Hallnas, Thomas Nilsson and 4Front
+Technologies
+
+gawk 3.1.5 (GPL-2.0)
+Copyright (c) 2008 Free Software Foundation, Inc.
+
+gconf 3.2.6 (LGPL-2.1)
+Copyright (c) 1999, 2000 Red Hat Inc
+
+gdbm 1.8.3 (GPL-2.0)

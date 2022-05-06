@@ -1,0 +1,10 @@
+uboot-imx 4.1.15 (GPL-2.0)
+Copyright (C) 2000 - 2011 Wolfgang Denk, DENX
+Software Engineering, wd@denx.de.
+
+update-rc.d 0.7 (GPL-2.0)
+
+
+usbutils 008 (GPL-2.0)
+Copyright (c) Thomas Sailer,
+<t.sailer@alumni.ethz.ch>

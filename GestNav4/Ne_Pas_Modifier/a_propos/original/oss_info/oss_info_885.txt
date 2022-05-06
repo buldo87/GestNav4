@@ -1,0 +1,10 @@
+distribute Covered Code that (i) in any way
+infringes (directly or contributorily) the rights
+(including patent, copyright, trade secret, trademark
+or other intellectual property rights of any kind) of
+any other person or entity or (ii) breaches any
+representation or warranty, express, implied or
+statutory, to which, under any applicable law, it
+might be deemed to have been subject.
+
+7. Claims of Infringement. If Recipient learns of any

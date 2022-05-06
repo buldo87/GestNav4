@@ -1,0 +1,10 @@
+<lastguru@mail.ru>
+Copyright (c) 2004 Gregory Mokhin
+<mokhin@bog.msu.ru>
+Copyright (c) 2006 Erdal Ronahî
+Copyright (c) 1996  Digital Equipment Corporation
+Copyright (c) 1996, 1998  The Open Group
+Copyright (c) 2004-2005 Sun Microsystems, Inc.
+Copyright (c) 1996 by Silicon Graphics Computer
+Systems, Inc.
+Copyright (c) 1996  X Consortium

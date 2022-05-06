@@ -1,0 +1,10 @@
+Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+mpeg2dec 0.4.1 (GPL-2.0)
+Copyright (C) 2000-2003 Michel Lespinasse
+<walken@zoy.org>
+Copyright (C) 1999-2000 Aaron Holtzman
+<aholtzma@ess.engr.uvic.ca>
+Copyright (C) 2003 Regis Duchesne
+<hpreg@zoy.org>
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997,

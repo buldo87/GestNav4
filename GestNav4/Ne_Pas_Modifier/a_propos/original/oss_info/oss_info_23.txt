@@ -1,0 +1,10 @@
+Copyright (C) 2012 Continental Automotive Systems,
+Inc
+
+GLib 2.46.2 (LGPL-2.1)
+Copyright (c) 1995-1997  Peter Mattis, Spencer
+Kimball and Josh MacDonald
+
+
+glib-networking 2.46.1 (LGPL-2.1)
+Copyright (c) 2010 Red Hat, Inc.

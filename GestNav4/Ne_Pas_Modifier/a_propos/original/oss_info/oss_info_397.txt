@@ -1,0 +1,10 @@
+transfer of ownership.
+
+e. "License Elements" means the following
+high-level license attributes as selected by Licensor
+and indicated in the title of this License:
+Attribution, ShareAlike.
+
+f. "Licensor" means the individual, individuals,
+entity or entities that offer(s) the Work under the
+terms of this License.

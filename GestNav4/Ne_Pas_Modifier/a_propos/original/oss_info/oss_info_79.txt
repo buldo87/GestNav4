@@ -1,0 +1,10 @@
+
+opkg 0.3.1 (GPL-2.0)
+Copyright (c) 2003 kernel concepts
+Copyright (c) 2001 University of Southern California
+
+opkg-utils 0.3.2 (GPL-2.0)
+
+
+pango 1.38.1 (LGPL-2.1)
+Copyright (C) 1999-2005 Red Hat, Inc.

@@ -1,0 +1,10 @@
+     o We don't promise that this software works.
+However, we will be interested in any kind of bug
+reports. (`as is' distribution)
+
+     o You can use this software for whatever you
+want, in parts or full form, without having to pay
+us. (`royalty-free' usage)
+
+     o You may not pretend that you wrote this
+software. If you use it, or only parts of it, in a

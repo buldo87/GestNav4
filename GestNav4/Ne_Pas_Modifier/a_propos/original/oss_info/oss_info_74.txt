@@ -1,0 +1,10 @@
+
+neon 0.30.1 (LGPL-2.1)
+Copyright (c) 1999-2008 Joe Orton
+<joe@manyfish.co.uk>
+Portions are:
+Copyright (c) Aleix Conchillo Flaque
+<aleix@member.fsf.org>
+Copyright (c) Arfrever Frehtes Taifersar Arahesis
+Copyright (c) Arun Garg <arung@pspl.co.in>
+Copyright (c) Daniel Stenberg <daniel@haxx.se>

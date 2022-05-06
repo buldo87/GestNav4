@@ -1,0 +1,10 @@
+     3. Altered source versions must be plainly
+marked as such, and must not be misrepresented as
+being the original software.
+
+     4. The name of the author may not be used to
+endorse or promote products derived from this
+software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR
+``AS IS'' AND ANY EXPRESS OR IMPLIED

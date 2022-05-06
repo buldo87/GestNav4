@@ -1,0 +1,10 @@
+Gstreamer 1.8.1 (LGPL-2.1)
+
+
+Gstreamer 0.10.36 (LGPL-2.1)
+Copyright (c) <1999> Erik Walthinsen
+<omega@cse.ogi.edu>
+
+gstreamer-imx 0.12.2 (LGPL-2.1)
+
+

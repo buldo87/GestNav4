@@ -1,0 +1,10 @@
+instructions (in the manual page or equivalent) on
+where to get the Standard Version.
+     b) accompany the distribution with the
+machine-readable source of the Package with your
+modifications.
+     c) give non-standard executables non-standard
+names, and clearly document the differences in
+manual pages (or equivalent), together with
+instructions on where to get the Standard Version.
+     d) make other distribution arrangements with

@@ -1,0 +1,10 @@
+Copyright (c) 1999  Andrea Arcangeli
+<andrea@suse.de>
+Copyright (c) 2005 Ben Gardner
+<bgardner@wabtec.com>
+Copyright (c) 2004 Cisco Systems, Inc.
+Copyright (c) 2003 Kyle McMartin
+<kyle@debian.org>
+Copyright (c) 2002  David Woodhouse
+<dwmw2@infradead.org>
+Copyright (c) 2002 William Lee Irwin III, IBM 

@@ -1,0 +1,10 @@
+Copyright (c) 2007-2011, Lloyd Hilaiel
+<lloyd@hilaiel.com>
+
+yocto-os-release  (MIT)
+
+
+zlib 1.2.8 (Zlib)
+Copyright (c) 1995-2013 Jean-loup Gailly and Mark
+Adler
+

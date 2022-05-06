@@ -1,0 +1,10 @@
+Copyright (C) 2001 Sun Microsystems
+
+pciutils 3.4.1 (GPL-2.0)
+
+
+perf-tools 1.0 (GPL-2.0)
+Copyright (c) 2014 Brendan Gregg.
+
+persistence-administrator 1.0.5 (MPL-2.0)
+Copyright (C) 2012 Continental Automotive Systems,

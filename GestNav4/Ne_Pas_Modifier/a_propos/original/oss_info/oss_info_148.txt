@@ -1,0 +1,10 @@
+Licence 1.0)
+Copyright (c) 2002-2011 Apple Computer, Inc.
+
+MediaInfoLib 0.7.91 (BSD-2-Clause)
+Copyright (c) 2002-2014 MediaArea.net SARL. 
+
+Mesa3D 11.1.1 (MIT)
+Copyright (c) 1999-2003  Brian Paul 
+
+minizip  (Zlib)
