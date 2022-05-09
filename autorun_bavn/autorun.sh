@@ -46,11 +46,10 @@ then
 fi
 if [ -f "$upgrade" ] 
 then
-    sleep 2
+	/usr/bin/aplay $dir/autorun_bavn/startup.wav	
 	killall nngnavi
+    sleep 3
 	LancementPopup "$Installation_GestNav4"
-	/usr/bin/aplay $dir/autorun_bavn/startup.wav
-    
     mount -o remount,rw /navi
 	mount -o remount,rw /app
     mount -o remount,rw $dir
@@ -110,8 +109,8 @@ fi
 if [ -d "$f" ] 
 then
 	/usr/bin/aplay $dir/autorun_bavn/startup.wav
-	killall nngnavi
-    sleep 5
+    killall nngnavi	
+    sleep 4
 	LancementPopup "$Installation_GestNav4" 
 	mount -o remount,rw /
     mount -o remount,rw /navi
@@ -119,6 +118,7 @@ then
     mount -o remount,rw $dir
     /bin/sync
     rm -f $file
+
     echo "installation_GestNav4.txt " > /dev/kmsg
 	#activation root
 	passwd -d root

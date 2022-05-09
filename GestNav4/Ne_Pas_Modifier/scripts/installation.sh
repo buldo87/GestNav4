@@ -168,51 +168,51 @@ echo " Categorie= $CategorieModif Type=$TypeModif" > /dev/kmsg
 				suivi_log "		mod_bleu"
 				echo "mod_bleu" > /dev/kmsg
 				install_mod
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/__ux_poi_cacou_mcc.zip /navi/ux > /dev/kmsg
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/__ux_Arrow_modbleu_cacou.zip /navi/ux > /dev/kmsg
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/__ux_alertes_eur+_original_v1.zip /navi/ux > /dev/kmsg
-				rm -rfv /navi/ux/__Addon_std_GestNav3.txt > /dev/kmsg
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/mod_bleu/* /navi
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_poi_cacou_mcc.zip /navi/ux > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_Arrow_modbleu_cacou.zip /navi/ux > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_alertes_eur+_original_v1.zip /navi/ux > /dev/kmsg
+				rm -rfv /navi/ux/__Addon_std_GestNav4.txt > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/mod_bleu/* /navi
 			
 			elif [ $2 = "mod_mediaevo" ];then
 				suivi_log "		mod_mediaevo"
 				echo "mod_mediaevo" > /dev/kmsg			
 				install_mod
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/__ux_poi_cacou_renault_dacia.zip /navi/ux > /dev/kmsg
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/__ux_Arrow_original_mediaevo.zip /navi/ux > /dev/kmsg
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/__ux_alertes_eur+_alain57_fonds_cyan.zip /navi/ux > /dev/kmsg
-				rm -rfv /navi/ux/__Addon_std_GestNav3.txt > /dev/kmsg
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/mod_mediaevo/* /navi
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_poi_cacou_renault_dacia.zip /navi/ux > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_Arrow_original_mediaevo.zip /navi/ux > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_alertes_eur+_alain57_fonds_cyan.zip /navi/ux > /dev/kmsg
+				rm -rfv /navi/ux/__Addon_std_GestNav4.txt > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/mod_mediaevo/* /navi
 
 			elif [ $2 = "mod_mediaevo_plus" ];then
 				suivi_log "		mod_mediaevo_plus"
 				echo "mod_mediaevo_plus" > /dev/kmsg			
 				install_mod
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/__ux_poi_cacou_renault_dacia.zip /navi/ux > /dev/kmsg
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/__ux_Arrow_blanc_renault_cacou.zip /navi/ux > /dev/kmsg
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/__ux_alertes_eur+_original.zip /navi/ux > /dev/kmsg
-				rm -rfv /navi/ux/__Addon_std_GestNav3.txt > /dev/kmsg
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/mod_mediaevo_plus/* /navi
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_poi_cacou_renault_dacia.zip /navi/ux > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_Arrow_blanc_renault_cacou.zip /navi/ux > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_alertes_eur+_original.zip /navi/ux > /dev/kmsg
+				rm -rfv /navi/ux/__Addon_std_GestNav4.txt > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/mod_mediaevo_plus/* /navi
 
 			elif [ $2 = "mod_rs" ]; then
 				suivi_log "		mod_rs"
 				echo "mod_rs" > /dev/kmsg
 				install_mod
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/__ux_poi_cacou_modRS.zip /navi/ux > /dev/kmsg
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/__ux_Arrow_modRS_cacou.zip /navi/ux > /dev/kmsg
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/__ux_alertes_eur+_original_v1.zip /navi/ux > /dev/kmsg
-				rm -rfv /navi/ux/__Addon_std_GestNav3.txt > /dev/kmsg
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/mod_rs/* /navi
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_poi_cacou_modRS.zip /navi/ux > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_Arrow_modRS_cacou.zip /navi/ux > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_alertes_eur+_original_v1.zip /navi/ux > /dev/kmsg
+				rm -rfv /navi/ux/__Addon_std_GestNav4.txt > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/mod_rs/* /navi
 
 			elif [ $2 = "mod_ultimate" ]; then
 				suivi_log "		mod_ultimate"
 				echo "mod_ultimate" > /dev/kmsg
 				install_mod
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/__ux_poi_cacou_inox.zip /navi/ux > /dev/kmsg
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/__ux_Arrow_blanc_lisere_cacou.zip /navi/ux > /dev/kmsg
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/__ux_alertes_eur+_Alain57_cacou_bigleux.zip /navi/ux > /dev/kmsg
-				rm -rfv /navi/ux/__Addon_std_GestNav3.txt > /dev/kmsg
-				cp -Rva $dir/GestNav3/Ne_Pas_Modifier/ux/mod_ultimate/* /navi
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_poi_cacou_inox.zip /navi/ux > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_Arrow_blanc_lisere_cacou.zip /navi/ux > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_alertes_eur+_Alain57_cacou_bigleux.zip /navi/ux > /dev/kmsg
+				rm -rfv /navi/ux/__Addon_std_GestNav4.txt > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/mod_ultimate/* /navi
 
 			elif [ $2 = "carbone" ]; then
 				suivi_log "		carbone"
