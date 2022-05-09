@@ -154,6 +154,7 @@ ecrit_log "***** Version gestnav : $version_gestnav ****" ""
 echo " ***** Version gestnav : $version_gestnav **** " > /dev/kmsg
 
 ecrit_log_nl "********** occupation disc **********" "`df /navi`"
+ecrit_log_nl "********** occupation disc **********" "`df /navi`"
 ecrit_log_nl "********** /navi **********" "`ls -la /navi`"
 ecrit_log_nl "********** /license **********" "`ls -laR /navi/license`"
 #ecrit_log_nl "********** /utility en dur ******" "`ls -laR /navi/utility`"

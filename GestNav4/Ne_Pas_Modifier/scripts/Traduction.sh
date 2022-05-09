@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 #  traduction pour popup
 
 Merci_de_patienter="Merci de patienter ..."
@@ -105,3 +105,7 @@ ERREUR_POI="manque ux pack icones POI sur la clé, installation impossible"
 
 Start_on_the_Map_ON="Activer démarrage sur la carte"
 Start_on_the_Map_OFF="Désactiver démarrage sur la carte"
+
+Installation_Cerise="Installation cerise"
+Installation_cerise_erreur_dossier="manque dossier cerise sur la clé, installation impossible"
+

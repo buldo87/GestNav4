@@ -78,7 +78,7 @@ Item {
         id: gestNavTitle
         y:COMGLOBAL.font_SYSTEM_Y + 20
         anchors.horizontalCenter: oslInfo.horizontalCenter
-        text: "GestNav3 v2.6 du 04-12-2021"
+        text: "GestNav3 v0.3 du 05-05-2022"
         font.pixelSize: 32
         color: COMCOLOR.color_index_32
     }
