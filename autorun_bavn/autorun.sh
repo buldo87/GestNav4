@@ -164,8 +164,15 @@ then
 	rm -rf /app/share/com.lge.bavn.settings/oss_info/*.txt
 	cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/a_propos/gestnav4/oss_info/* /app/share/com.lge.bavn.settings/oss_info > /dev/kmsg
 	cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/a_propos/gestnav4/bin/* /app/bin/ > /dev/kmsg
+	cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_1.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_1.img.bak
+	cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_2.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_2.img.bak
+	cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_3.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_3.img.bak
 	cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_4.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_4.img.bak
-	cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/a_propos/gestnav4/WelcomeAnimation_4.img /usr/share/mxc-camera-app/boot-video/
+	cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_7.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_7.img.bak
+	cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/a_propos/gestnav4/WelcomeAnimation_*.img /usr/share/mxc-camera-app/boot-video/
+	cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/a_propos/gestnav4/WelcomeAnimation.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_2.img
+	cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/a_propos/gestnav4/WelcomeAnimation.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_3.img
+	cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/a_propos/gestnav4/WelcomeAnimation.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_7.img
 	cp -Rfva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_scheme_original.zip /navi/ux > /dev/kmsg	
     chown 1004:1004 /navi/* > /dev/kmsg
 	if [ -f "$trad" ]

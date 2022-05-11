@@ -104,7 +104,7 @@ function install_mod
 				rm -rfv /navi/ux/_carbone* > /dev/kmsg				
 				rm -rfv /navi/ux/_skin_renault45.zip > /dev/kmsg
 				rm -rfv /navi/ux/_skin_dacia45.zip > /dev/kmsg
-				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/original/ux/* /navi/ux > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/ancien/ux/* /navi/ux > /dev/kmsg
 				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_scheme_original.zip /navi/ux > /dev/kmsg
 				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_addon_lang_french.zip /navi/ux > /dev/kmsg
 				

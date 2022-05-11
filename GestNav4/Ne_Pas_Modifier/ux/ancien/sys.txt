@@ -1,0 +1,11 @@
+[device]
+type="lge_ulc40"
+
+[dr.gps]
+use_speed_signal_as_speed=0
+
+; clignotement des junction_view
+[navigation]
+sim_speed_factor=1
+junction_view_blink_time=500;(0) lane arrow blinks every 0,5 sec
+junction_view_blink_time_no_lane=500;(0) lane arrow blinks every 0,5 sec
