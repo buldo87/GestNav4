@@ -27,7 +27,8 @@ then
 	cp -Rva $dir/GestNav4/Installation_utilisateur/radars/radars_std/*.spc /navi_rw/speedcam/ > /dev/kmsg
 	cp -Rva $dir/GestNav4/Installation_utilisateur/radars/radars_std/*.spc /navi_rw/spc/ > /dev/kmsg
 #copie le sys.txt modifié
-	cp -Rva $dir/GestNav4/Ne_Pas_Modifier/radars_std/sys.txt /navi/ > /dev/kmsg					 
+	cp -Rva $dir/GestNav4/Ne_Pas_Modifier/radars_std/sys.txt /navi/ > /dev/kmsg
+	cp -Rva $dir/GestNav4/Ne_Pas_Modifier/radars_std/radars_std.ini /navi/ > /dev/kmsg
 	ls  -la /navi_rw/speedcam > /dev/kmsg
 	chown -Rv 1004:1004 /navi/*
 	chown -Rv 1004:1004 /navi_rw/*
@@ -38,6 +39,11 @@ then
 	mount -o remount,ro $clem
 #lancement son fin et fin popup
 	EnvoiSon installation.wav $1 2
+	/navi_rw/utility/GestNav4/PopupFin.sh &
+
+else
+	/navi_rw/utility/GestNav4/LancementPopup.sh "$Map_changer_pas_de_cle" &
+	sleep 6
 	/navi_rw/utility/GestNav4/PopupFin.sh &
 fi
 /bin/sync

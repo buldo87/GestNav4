@@ -35,6 +35,11 @@ then
 #lancement son fin et fin popup
 	EnvoiSon installation.wav $1 2
 	/navi_rw/utility/GestNav4/PopupFin.sh &
+
+else
+	/navi_rw/utility/GestNav4/LancementPopup.sh "$Map_changer_pas_de_cle" &
+	sleep 6
+	/navi_rw/utility/GestNav4/PopupFin.sh &
 fi
 /bin/sync
 		echo "**********************" > /dev/kmsg

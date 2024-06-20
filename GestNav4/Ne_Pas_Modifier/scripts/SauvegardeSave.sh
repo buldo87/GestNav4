@@ -37,8 +37,9 @@ then
 	/navi_rw/utility/GestNav4/PopupFin.sh &
 
 else
-  ecrit_log "autorun.sh introuvable, le chemin est invalide ! " "on sort !" 
-  exit 0
+	/navi_rw/utility/GestNav4/LancementPopup.sh "$Map_changer_pas_de_cle" &
+	sleep 6
+	/navi_rw/utility/GestNav4/PopupFin.sh &
 fi
 /bin/sync
 		echo "**********************" > /dev/kmsg

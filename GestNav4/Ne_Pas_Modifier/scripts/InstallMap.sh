@@ -69,22 +69,24 @@ then
 	mount -o remount,ro $clem
 # lancement son fin et fin popup
         if [ $Erreur = "1" ]; then
-            /usr/bin/aplay $dir/autorun_bavn/alerte.wav
+			EnvoiSon alerte.wav $2 2
             $dir/GestNav4/Ne_Pas_Modifier/scripts/PopupFin.sh &
             sleep 1
             $dir/GestNav4/Ne_Pas_Modifier/scripts/LancementPopup.sh "$Installation_GestNav4_erreur" &
-
-            #EnvoiSon alerte.wav $2 2
             sleep 5
             suivi_log "        = > Mémoire pleine ou échec écriture"
             $dir/GestNav4/Ne_Pas_Modifier/scripts/PopupFin.sh &
             /navi_rw/utility/GestNav4/Diagnostic.sh $2
         else
             EnvoiSon installation.wav $2 2
-            #/usr/bin/aplay $dir/autorun_bavn/installation.wav
             suivi_log "        = > OK"
             sleep 5
         fi	
+	/navi_rw/utility/GestNav4/PopupFin.sh &
+
+else
+	/navi_rw/utility/GestNav4/LancementPopup.sh "$Map_changer_pas_de_cle" &
+	sleep 6
 	/navi_rw/utility/GestNav4/PopupFin.sh &
 fi
 /bin/sync

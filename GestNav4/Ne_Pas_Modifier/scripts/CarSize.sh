@@ -4,9 +4,10 @@ echo "********** ux CarSize $1 avec $2 *************" > /dev/kmsg
 source /navi_rw/utility/GestNav4/SuiviLog.sh
 source /navi_rw/utility/GestNav4/common.sh
 source /navi_rw/utility/GestNav4/Traduction.sh
+dure="/navi/utility/GestNav4/Ne_Pas_Modifier"
 suivi_log "installation/desinstallation ux CarSize $1 avec $2 "
 
-if [ -d "$dir/GestNav4" ];then
+if [ -d "$dir/GestNav4" ] || [ -d "$dure" ];then
 	mount -o remount,rw /navi
 	mount -o remount,rw $clem
 	/bin/sync
@@ -34,7 +35,12 @@ if [ -d "$dir/GestNav4" ];then
 #lancement son fin et fin popup
     EnvoiSon installation.wav $2 2  
 	/navi_rw/utility/GestNav4/PopupFin.sh &	
-/bin/sync
-#/sbin/reboot -f
 fi
+
+else
+		/navi_rw/utility/GestNav4/LancementPopup.sh "$Absence_cle" &
+		sleep 6
+		/navi_rw/utility/GestNav4/PopupFin.sh & 
+fi 
+/bin/sync
 

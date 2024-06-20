@@ -4,9 +4,10 @@ echo "********** Installation font GPS $1 avec $2 *************" > /dev/kmsg
 source /navi_rw/utility/GestNav4/SuiviLog.sh
 source /navi_rw/utility/GestNav4/common.sh
 source /navi_rw/utility/GestNav4/Traduction.sh
+dure="/navi/utility/GestNav4/Ne_Pas_Modifier"
 suivi_log "Installation font GPS $1 avec $2"
 
-if [ -d "$dir/GestNav4" ];then
+if [ -d "$dir/GestNav4" ] || [ -d "$dure" ];then
     mount -o remount,rw $clem
     mount -o remount,rw /app
 	mount -o remount,rw /navi
@@ -74,6 +75,10 @@ if [ -d "$dir/GestNav4" ];then
 # lancement son fin et fin popup
 	EnvoiSon installation.wav $2 2
 	/navi_rw/utility/GestNav4/PopupFin.sh &
-/bin/sync
 
+else
+		/navi_rw/utility/GestNav4/LancementPopup.sh "$Absence_cle" &
+		sleep 6
+		/navi_rw/utility/GestNav4/PopupFin.sh & 
 fi
+/bin/sync

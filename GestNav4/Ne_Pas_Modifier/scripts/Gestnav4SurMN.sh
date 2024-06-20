@@ -56,6 +56,7 @@ then
 	cp -Rva $dir/GestNav4/Ne_Pas_Modifier/SonRadar /navi/utility/GestNav4/Ne_Pas_Modifier	
 	cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux /navi/utility/GestNav4/Ne_Pas_Modifier
 	cp -Rva $dir/GestNav4/Ne_Pas_Modifier/loading_finished /navi/utility/GestNav4/Ne_Pas_Modifier
+	cp -Rva $dir/GestNav4/Ne_Pas_Modifier/voix /navi/utility/GestNav4/Ne_Pas_Modifier
 	#cp -Rva $dir/GestNav4/Ne_Pas_Modifier/video /navi/utility/GestNav4/Ne_Pas_Modifier	
 	
 		Erreur="0"	
@@ -168,6 +169,11 @@ then
 			fi
 		fi
 	fi
+	/navi_rw/utility/GestNav4/PopupFin.sh &
+
+else
+	/navi_rw/utility/GestNav4/LancementPopup.sh "$Map_changer_pas_de_cle" &
+	sleep 6
 	/navi_rw/utility/GestNav4/PopupFin.sh &
 fi
 echo "***************************************" > /dev/kmsg	

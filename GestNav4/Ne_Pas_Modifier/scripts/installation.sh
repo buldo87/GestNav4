@@ -1,12 +1,13 @@
 ﻿#!/bin/bash
-echo " *********** installation divers navigation MN4 ************* " > /dev/kmsg
+echo " ************************************************ " > /dev/kmsg
+echo " *********** installation divers navigation MN4 : " > /dev/kmsg
 source /navi_rw/utility/GestNav4/common.sh
 source /navi_rw/utility/GestNav4/SuiviLog.sh
 source /navi_rw/utility/GestNav4/Traduction.sh
-echo  "dir=$dir , cle=$cle , arg1=$1 , arg2=$2 , arg3=$3" > /dev/kmsg
-suivi_log "****** installation.sh ******** dir=$dir , arg1=$1 , arg2=$2 , arg3=$3"
+echo  "dir=$dir , cle=$cle , arg1=$1 , arg2=$2 , arg3=$3  *********** " > /dev/kmsg
+suivi_log "****** installation.sh ***** debut ******** dir=$dir , arg1=$1 , arg2=$2 , arg3=$3"
 if [ -d "$dir/GestNav4" ];then
-	
+
 mount -o remount,rw /navi
 mount -o remount,rw $clem
 /bin/sync
@@ -95,33 +96,43 @@ esac
 
 function install_mod
 {
+				while [ $(pgrep "nngnavi") != "" ];do
+					sleep 1
+					echo "fermeture de nngnavi ..." > /dev/kmsg
+				done
 				if [ ! -f /navi/ux/__Addon_GestNav4* ]; then
 					rm -v /navi_rw/speedcam/*.txt 
 					rm -v /navi_rw/speedcam/*.spdb 
 					echo "on vire les radars std" > /dev/kmsg
 				fi	
-				rm -rfv /navi/ux/__* > /dev/kmsg
+				rm -rfv /navi/ux/ux_recherche_rapide_garages_cacou.zip > /dev/kmsg				
+				rm -rf /navi/ux/__* > /dev/kmsg
 				rm -rfv /navi/ux/_carbone* > /dev/kmsg				
-				rm -rfv /navi/ux/_skin_renault45.zip > /dev/kmsg
-				rm -rfv /navi/ux/_skin_dacia45.zip > /dev/kmsg
-				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/ancien/ux/* /navi/ux > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/original/ux/* /navi/ux > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/mod_options/* /navi > /dev/kmsg
 				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_scheme_original.zip /navi/ux > /dev/kmsg
 				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_addon_lang_french.zip /navi/ux > /dev/kmsg
-				
-				
+				rm -rfv /navi/ux/_skin_renault45.zip > /dev/kmsg
+				rm -rfv /navi/ux/_skin_dacia45.zip > /dev/kmsg				
+				rm -rfv /navi/ux/_skin_renault45_mex.zip > /dev/kmsg
+				rm -rfv /navi/ux/_skin_dacia48.zip > /dev/kmsg						
 			
 }				
 function install_mn4_type
-{		
+{						
+				while [ $(pgrep "nngnavi") != "" ];do
+					sleep 1
+					echo "fermeture de nngnavi ..." > /dev/kmsg
+				done
 				if [ ! -f /navi/ux/__Addon_std_GestNav4* ]; then
 					rm -v /navi_rw/speedcam/*.txt 
 					rm -v /navi_rw/speedcam/*.spdb 
 					echo "on vire les radars eur+" > /dev/kmsg
 				fi	
 				rm -rfv /navi/ux/__* > /dev/kmsg
-				rm -rfv /navi/ux/_skin_dacia45.zip > /dev/kmsg
+				rm -rfv /navi/ux/ux_recherche_rapide_garages_cacou.zip > /dev/kmsg
 				rm -rfv /navi/ux/_carbone* > /dev/kmsg
-				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/original/ux/* /navi/ux > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/original/* /navi/ > /dev/kmsg
 				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_scheme_original.zip /navi/ux > /dev/kmsg
 				cp -v /navi_rw/spc/*.spc /navi_rw/speedcam
 #				cp -v /navi_rw/spc/*.md5 /navi_rw/speedcam
@@ -129,7 +140,7 @@ function install_mn4_type
 				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/mn4/* /navi			
 }
 
-echo " Categorie= $CategorieModif Type=$TypeModif" > /dev/kmsg
+echo " Categorie = $CategorieModif Type=$TypeModif" > /dev/kmsg
 ################################### installation
 	if [ $TypeModif = "installation" ]; then
 ############ installation POI
@@ -160,10 +171,11 @@ echo " Categorie= $CategorieModif Type=$TypeModif" > /dev/kmsg
 			#lancement son début
 			EnvoiSon startup.wav $3 1		#son, type media, durée en seconde
 			suivi_log "	c'est un skin à installer"
-			echo "c'est un skin à installer " > /dev/kmsg
+			echo "*** c'est un skin à installer " > /dev/kmsg
 			mv -v /navi_rw/speedcam/*.spc /navi_rw/spc
 			mv -v /navi_rw/speedcam/*.md5 /navi_rw/spc
 			rm -rfv /navi_rw/save/poi_visiblities* > /dev/kmsg
+# type MOD_MN3
 			if [ $2 = "mod_bleu" ]; then
 				suivi_log "		mod_bleu"
 				echo "mod_bleu" > /dev/kmsg
@@ -214,6 +226,48 @@ echo " Categorie= $CategorieModif Type=$TypeModif" > /dev/kmsg
 				rm -rfv /navi/ux/__Addon_std_GestNav4.txt > /dev/kmsg
 				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/mod_ultimate/* /navi
 
+			elif [ $2 = "MN3" ]; then
+				suivi_log "		mod_MN3"
+				echo "mod_MN3" > /dev/kmsg			
+				install_mod
+				rm -rfv /navi/ux/__Addon_std_GestNav4.txt > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/mod_mn3/* /navi
+
+				
+			elif [ $2 = "MN3_dacia_nbi" ]; then
+				suivi_log "		MN3_dacia_nbi"
+				echo "MN3_dacia_nbi" > /dev/kmsg			
+				install_mod
+				rm -rfv /navi/ux/__Addon_std_GestNav4.txt > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/mn3_dacia_nbi/* /navi			
+
+			
+				suivi_log "		MN3_dacia_nbi"
+				echo "MN3_dacia_nbi" > /dev/kmsg			
+
+				rm -rfv /navi/ux/__Addon_std_GestNav4.txt > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/mn3_dacia_nbi/* /navi
+				if [ -f /navi/radars_std.ini ]; then
+					cp -Rva $dir/GestNav4/Ne_Pas_Modifier/radars_std/sys.txt /navi > /dev/kmsg
+					echo "on copie le sys.txt modifié pour les radars" > /dev/kmsg
+				fi
+# type MN4				
+			elif [ $2 = "MN4" ]; then
+				suivi_log "		MN4"
+				echo "MN4" > /dev/kmsg			
+				install_mn4_type
+				rm -rfv /navi/ux/_skin_dacia45.zip > /dev/kmsg
+				rm -rfv /navi/ux/_skin_dacia48.zip > /dev/kmsg
+			
+			elif [ $2 = "MN4_dacia" ]; then
+				install_mn4_type
+				suivi_log "		MN4_dacia"
+				echo "MN4_dacia" > /dev/kmsg			
+				rm -rfv /navi/ux/_skin_renault* > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/mn4_dacia/* /navi
+
+				
+# type carbone
 			elif [ $2 = "carbone" ]; then
 				suivi_log "		carbone"
 				echo "carbone" > /dev/kmsg
@@ -222,26 +276,42 @@ echo " Categorie= $CategorieModif Type=$TypeModif" > /dev/kmsg
 					rm -v /navi_rw/speedcam/*.spdb 
 					echo "on vire les radars std" > /dev/kmsg
 				fi	
+				rm -rfv /navi/ux/_carbone* > /dev/kmsg
 				rm -rfv /navi/ux/__* > /dev/kmsg
 				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/carbone/* /navi
 				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_poi_cacou_mcc.zip /navi/ux > /dev/kmsg
-				rm -rfv /navi/ux/_skin_dacia.zip > /dev/kmsg
-				rm -rfv /navi/ux/_skin_lg_renault_ulc20.zip > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/ux_recherche_rapide_garages_cacou.zip /navi/ux > /dev/kmsg
 				rm -rfv /navi/ux/_skin_renault.zip > /dev/kmsg
+				rm -rfv /navi/ux/_skin_dacia.zip > /dev/kmsg	
+				rm -rfv /navi/ux/_skin_lg_renault_ulc20.zip > /dev/kmsg
 				rm -rfv /navi/ux/_skin_renault45.zip > /dev/kmsg
 				rm -rfv /navi/ux/_skin_dacia45.zip > /dev/kmsg
-		
-			elif [ $2 = "MN4" ]; then
-				suivi_log "		MN4"
-				echo "MN4" > /dev/kmsg			
-				install_mn4_type
-			
-			elif [ $2 = "MN4_dacia" ]; then
-				suivi_log "		MN4_dacia"
-				echo "MN4" > /dev/kmsg			
-				install_mn4_type
-				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/mn4_dacia/* /navi
-			fi
+				rm -rfv /navi/ux/_skin_dacia48.zip > /dev/kmsg
+				rm -rfv /navi/ux/_skin_renault45_mex.zip > /dev/kmsg
+				
+			elif [ $2 = "carbone_bleu" ]; then
+				suivi_log "		carbone_bleu"
+				echo "carbone_bleu" > /dev/kmsg
+				if [ ! -f /navi/ux/__Addon_GestNav4* ]; then
+					rm -v /navi_rw/speedcam/*.txt 
+					rm -v /navi_rw/speedcam/*.spdb 
+					echo "on vire les radars std" > /dev/kmsg
+				fi	
+				rm -rfv /navi/ux/_carbone* > /dev/kmsg
+				rm -rfv /navi/ux/__* > /dev/kmsg
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/carbone_bleu/* /navi
+				cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_poi_cacou_mcc.zip /navi/ux > /dev/kmsg
+                cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/ux_recherche_rapide_garages_cacou.zip /navi/ux > /dev/kmsg
+				rm -rfv /navi/ux/_skin_renault.zip > /dev/kmsg
+				rm -rfv /navi/ux/_skin_dacia.zip > /dev/kmsg				
+				rm -rfv /navi/ux/_skin_lg_renault_ulc20.zip > /dev/kmsg
+				rm -rfv /navi/ux/_skin_renault45.zip > /dev/kmsg
+				rm -rfv /navi/ux/_skin_dacia45.zip > /dev/kmsg
+				rm -rfv /navi/ux/_skin_dacia48.zip > /dev/kmsg
+				rm -rfv /navi/ux/_skin_renault45_mex.zip > /dev/kmsg				
+
+			fi			
+
 			EnvoiSon installation.wav $3 1         #son, type=$1, durée en seconde
 ############ installation image de boot_fav
 		elif [ $1 = "boot_fav" ] && [ -d "$cle" ];then  
@@ -266,13 +336,22 @@ echo " Categorie= $CategorieModif Type=$TypeModif" > /dev/kmsg
 			/navi_rw/utility/GestNav4/LancementPopup.sh "$Installation_boot" &
 			#lancement son début
 			EnvoiSon startup.wav $3 1		#son, type media, durée en seconde
-			suivi_log "	installation image de boot"
-			#mount -o remount,rw / > /dev/kmsg
+			suivi_log "	installation video boot"
+			mount -o remount,rw / > /dev/kmsg
 			/bin/sync
 			#cp -fRva /usr/share/mxc-camera-app/boot-logo/* $dir/GestNav4/Installation_utilisateur/images_boot/sauvegarde/ > /dev/kmsg
-			#cp -fRva $dir/GestNav4/Ne_Pas_Modifier/images_boot/$2.png /usr/share/mxc-camera-app/boot-logo/800x480_Dacia.png > /dev/kmsg
-			#cp -fRva $dir/GestNav4/Ne_Pas_Modifier/images_boot/$2.png /usr/share/mxc-camera-app/boot-logo/800x480_Renault.png > /dev/kmsg
-			#mount -o remount,ro /
+			#cp -fRva $dir/GestNav4/Ne_Pas_Modifier/images_boot/$2.img /usr/share/mxc-camera-app/boot-logo/800x480_Dacia.png > /dev/kmsg
+			
+			cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/boot/$2.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_1.img > /dev/kmsg
+			cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/boot/$2.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_4.img > /dev/kmsg
+			cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/boot/$2.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_2.img > /dev/kmsg
+			cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/boot/$2.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_3.img > /dev/kmsg
+			cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/boot/$2.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_7.img > /dev/kmsg
+			
+			
+			
+			
+			mount -o remount,ro /
 			/bin/sync
 			# lancement du son
 			EnvoiSon installation.wav $3 1         #son, type=$1, durée en seconde
@@ -357,5 +436,6 @@ fi
 /bin/sync
 echo " TypeModif=$TypeModif CategorieModif=$CategorieModif  arg1=$1 arg2=$2 " > /dev/kmsg
 suivi_log "************* Fin Installation.sh ******************"
-echo " ******************************* " > /dev/kmsg
+echo " **************** Fin *************************** " > /dev/kmsg
+echo " ************************************************ " > /dev/kmsg
 exit 0

@@ -9,7 +9,7 @@ source /navi_rw/utility/GestNav4/Traduction.sh
 suivi_log "installation ux Day_Night STD"
 file="$dir/GestNav4.txt"
 # on vérifie que le chemin est valide
-if [ -d "$dir/GestNav4" ];then
+if [ -d "$dir/GestNav4" ] || [ -d "$dure" ];then
 	sleep 1
 	/navi_rw/utility/GestNav4/LancementPopup.sh "$Installation_Day_NightStd" &
 #lancement son début
@@ -36,6 +36,10 @@ if [ -d "$dir/GestNav4" ];then
 	EnvoiSon installation.wav $1 2
 	/navi_rw/utility/GestNav4/PopupFin.sh &
 
+else
+		/navi_rw/utility/GestNav4/LancementPopup.sh "$Absence_cle" &
+		sleep 6
+		/navi_rw/utility/GestNav4/PopupFin.sh & 
 fi
 /bin/sync
 		echo "**********************" > /dev/kmsg

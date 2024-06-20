@@ -62,4 +62,8 @@ if [ -d "$dir/GestNav4" ];then
 		/navi_rw/utility/GestNav4/PopupFin.sh &
 		/bin/sync
 	fi
+else
+	/navi_rw/utility/GestNav4/LancementPopup.sh "$Map_changer_pas_de_cle" &
+	sleep 6
+	/navi_rw/utility/GestNav4/PopupFin.sh &
 fi

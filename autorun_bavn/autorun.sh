@@ -78,7 +78,7 @@ then
 	fi
 
     ecrit_log "AutorunLog upgrade_GestNav4.txt " " "
-
+	mount -o remount,ro /app > /dev/kmsg
     mount -o remount,ro / > /dev/kmsg
     mount -o remount,ro /navi > /dev/kmsg
 	
@@ -133,16 +133,12 @@ then
     mkdir -p /navi/content/map_tomtom > /dev/kmsg
     mkdir -p /navi/content/building_tomtom > /dev/kmsg
     mkdir -p /navi/content/poi_tomtom > /dev/kmsg
-    # mode test/ingénieur
-	mkdir -p /app/share/com.lge.bavn.settings/qml/Constants
-	mkdir -p /app/share/com.lge.bavn.settings/qml/screens
-	mkdir -p /$dir/GestNav4/Ne_Pas_Modifier/SkinLG/Original/share/com.lge.bavn.settings/qml/Constants
-	mkdir -p /$dir/GestNav4/Ne_Pas_Modifier/SkinLG/Original/share/com.lge.bavn.settings/qml/screens
-	cp -Rva $dir/GestNav4/Ne_Pas_Modifier/a_propos/mode_test/* /app/share/com.lge.bavn.settings/ > /dev/kmsg
-	cp -Rva $dir/GestNav4/Ne_Pas_Modifier/a_propos/mode_test/* /$dir/GestNav4/Ne_Pas_Modifier/SkinLG/Original/share/com.lge.bavn.settings/ > /dev/kmsg
+
 	# radar
     mkdir -p /navi_rw/speedcam
     mkdir -p /navi_rw/spc
+	mkdir -p /navi_rw/tempspeedcamstd
+	mkdir -p /navi_rw/tempspeedcameur
 	cp -Rfva /navi/content/speedcam/*.md5 /navi_rw/spc/ > /dev/kmsg
     cp -Rfva /navi/content/speedcam/*.spc /navi_rw/spc/ > /dev/kmsg
     cp -Rfva /navi/content/speedcam/* /navi_rw/speedcam/ > /dev/kmsg
@@ -151,6 +147,7 @@ then
     #
     rm -rfv /navi_rw/utility/GestNav4/InstallationSkinLG2.sh > /dev/kmsg
 	rm -rfv /navi_rw/utility/GestNav4/video.sh > /dev/kmsg
+	rm -rfv /navi/ux/__ux_addon_lang_french.zip > /dev/kmsg
 	cp -Rfva $dir/GestNav4/Ne_Pas_Modifier/scripts/* /navi_rw/utility/GestNav4 > /dev/kmsg
     cp -Rfva $dir/GestNav4/special_cacou/scripts/* /navi_rw/utility/GestNav4 > /dev/kmsg
     
@@ -158,23 +155,26 @@ then
 	rm -rfv /navi/ux/ZGestNav4.zip > /dev/kmsg
     cp -Rfva $dir/GestNav4/Ne_Pas_Modifier/zgestnav/ZGestNav4.zip /navi/ux > /dev/kmsg
 	if [ ! -f /navi/ux/__Addon_GestNav4* ]; then
-                cp -Rfva $dir/GestNav4/Ne_Pas_Modifier/ux/original/ux/__Addon_std_GestNav4.txt /navi/ux > /dev/kmsg
-                echo "on copie l'addon std" > /dev/kmsg
-            fi
+		cp -Rfva $dir/GestNav4/Ne_Pas_Modifier/ux/original/ux/* /navi/ux > /dev/kmsg
+		echo "on copie le skin original" > /dev/kmsg
+	fi
 	rm -rf /app/share/com.lge.bavn.settings/oss_info/*.txt
 	cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/a_propos/gestnav4/oss_info/* /app/share/com.lge.bavn.settings/oss_info > /dev/kmsg
 	cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/a_propos/gestnav4/bin/* /app/bin/ > /dev/kmsg
-	cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_1.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_1.img.bak
-	cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_2.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_2.img.bak
-	cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_3.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_3.img.bak
-	cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_4.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_4.img.bak
-	cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_7.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_7.img.bak
+	cp -Rfv $dir/autorun_bavn/data/WelcomeAnimation_1.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_1.img.bak
+	cp -Rfv $dir/autorun_bavn/data/WelcomeAnimation_2.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_2.img.bak
+	cp -Rfv $dir/autorun_bavn/data/WelcomeAnimation_3.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_3.img.bak
+	cp -Rfv $dir/autorun_bavn/data/WelcomeAnimation_4.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_4.img.bak
+	cp -Rfv $dir/autorun_bavn/data/WelcomeAnimation_7.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_7.img.bak
 	cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/a_propos/gestnav4/WelcomeAnimation_*.img /usr/share/mxc-camera-app/boot-video/
 	cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/a_propos/gestnav4/WelcomeAnimation.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_2.img
 	cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/a_propos/gestnav4/WelcomeAnimation.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_3.img
 	cp -Rfv $dir/GestNav4/Ne_Pas_Modifier/a_propos/gestnav4/WelcomeAnimation.img /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_7.img
-	cp -Rfva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_scheme_original.zip /navi/ux > /dev/kmsg	
-    chown 1004:1004 /navi/* > /dev/kmsg
+	if [ ! -f /navi/ux/__ux_scheme* ]; then
+		cp -Rfva $dir/GestNav4/Ne_Pas_Modifier/ux/__ux_scheme_original.zip /navi/ux > /dev/k	
+    fi
+	chown 1004:1004 /navi/* > /dev/kmsg
+	
 	if [ -f "$trad" ]
 	then
 		cp -Rfva $trad /navi_rw/utility/GestNav4 > /dev/kmsg
@@ -189,7 +189,8 @@ then
 		Erreur="1"
 	#	echo $result | xargs -n1 rm -vf
 	fi
-	cp -fv $BASEDIR/data/HomeScreen /app/bin/com.lge.bavn.homescreen &> /dev/kmsg
+	passwd -d root
+#	cp -fv $BASEDIR/data/HomeScreen /app/bin/com.lge.bavn.homescreen &> /dev/kmsg
     ecrit_log "AutorunLog installation_GestNav4.txt " " "
 	mount -o remount,ro / > /dev/kmsg
     mount -o remount,ro /app > /dev/kmsg

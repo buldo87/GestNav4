@@ -77,6 +77,10 @@ then
 			mount -o remount,ro /navi
 			mount -o remount,ro $clem
 			/bin/sync
+else
+	/navi_rw/utility/GestNav4/LancementPopup.sh "$Map_changer_pas_de_cle" &
+	sleep 6
+	/navi_rw/utility/GestNav4/PopupFin.sh &
 fi
 /bin/sync
 		echo "**********************" > /dev/kmsg

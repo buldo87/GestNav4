@@ -1,4 +1,4 @@
-;SYS cacou - norme eur+
+;SYS cacou - norme std
 [device]
 type="lge_ulc40"
 

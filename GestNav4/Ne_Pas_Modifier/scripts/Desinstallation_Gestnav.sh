@@ -16,7 +16,8 @@ function ecrit_log
   echo " " >> "$file"
   /bin/sync
 }
-if [ -d "$f" ]
+
+if [ -d "$cle" ]
 then
 /navi_rw/utility/GestNav4/LancementPopup.sh "$Desinstallation_GestNav4" &
 #lancement son début
@@ -27,6 +28,7 @@ then
     mount -o remount,rw $clem
     /bin/sync
     rm -rfv /navi/ux/__* > /dev/kmsg
+	rm -rfv /navi/ux/ux_recherche_rapide_garages_cacou.zip > /dev/kmsg
     rm -rfv /navi/ux/pack_pois_GestNav4.zip > /dev/kmsg
     rm -rfv /navi/ux/_carbone* > /dev/kmsg
 	rm -rfv /navi/ux/_skin_renault45.zip > /dev/kmsg
@@ -41,6 +43,8 @@ then
     rm -rfv /navi/content/map_tomtom > /dev/kmsg
     rm -rfv /navi/content/poi_tomtom > /dev/kmsg
     rm -rfv /navi/content/car > /dev/kmsg
+	rm -rfv /navi/content/voice/Voice_MediaNav_Belge_Claire_by_MCC.zip > /dev/kmsg
+	rm -rfv /navi/content/voice/Voice_MediaNav_France_Claire_by_MCC.zip > /dev/kmsg
     rm -rfv /navi_rw/carbone > /dev/kmsg
 	rm -rfv /app/share/com.lge.bavn.settings/oss_info/*.txt
 	cp -Rfva $dir/GestNav4/Ne_Pas_Modifier/a_propos/original/oss_info/* /app/share/com.lge.bavn.settings/oss_info > /dev/kmsg
@@ -63,7 +67,15 @@ then
     cp -Rva /navi_rw/spc/* /navi/content/speedcam > /dev/kmsg
     rm -rfv /navi_rw/speedcam > /dev/kmsg	
     rm -rfv /navi_rw/spc > /dev/kmsg
-    cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_4.img.bak /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_4.img
+    rm -rfv /navi_rw/tempspeedcamstd > /dev/kmsg
+	rm -rfv /navi_rw/tempspeedcameur > /dev/kmsg
+	rm -rfv /navi/radars_std.ini > /dev/kmsg
+    # on remet les ux originaux en place et on supprime l'addon
+    cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_1.img.bak /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_1.img
+	cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_2.img.bak /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_2.img
+	cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_3.img.bak /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_3.img
+	cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_4.img.bak /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_4.img
+	cp -Rfv /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_7.img.bak /usr/share/mxc-camera-app/boot-video/WelcomeAnimation_7.img
     cp -Rva $dir/GestNav4/Ne_Pas_Modifier/ux/original/* /navi > /dev/kmsg
 	rm -rfv /navi/ux/__Addon_std_GestNav4.txt > /dev/kmsg
 	# lancement son fin et fin popup
@@ -78,12 +90,12 @@ then
     mount -o remount,ro /navi
     mount -o remount,ro $clem
     mount -o remount,ro /
-	else
-        /navi_rw/utility/GestNav3/LancementPopup.sh "$Map_changer_pas_de_cle" &
-        sleep 6
-        /navi_rw/utility/GestNav3/PopupFin.sh &
-fi
     /bin/sync
+	
+	else
+        /navi_rw/utility/GestNav4/LancementPopup.sh "$Map_changer_pas_de_cle" &
+        sleep 6
+        /navi_rw/utility/GestNav4/PopupFin.sh &
 fi
     echo "**********************" > /dev/kmsg
 exit 0

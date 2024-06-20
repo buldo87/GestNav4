@@ -65,9 +65,14 @@ then
 
 	mount -o remount,ro /navi
 	mount -o remount,ro $clem
+	suivi_log "`df /navi`"
+	suivi_log "*******************"
+
+else
+	/navi_rw/utility/GestNav4/LancementPopup.sh "$Map_changer_pas_de_cle" &
+	sleep 6
+	/navi_rw/utility/GestNav4/PopupFin.sh &
 fi
-suivi_log "`df /navi`"
-suivi_log "*******************"
 /bin/sync
 echo "**********************" > /dev/kmsg
 exit 0

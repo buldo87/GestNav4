@@ -109,3 +109,14 @@ Start_on_the_Map_OFF="Désactiver démarrage sur la carte"
 Installation_Cerise="Installation cerise"
 Installation_cerise_erreur_dossier="manque dossier cerise sur la clé, installation impossible"
 
+Installation_VoixNavi="Installation voix de navigation améliorée"
+Installation_VoixNavi_original="Suppression voix de navigation améliorées"
+
+Absence_cle="Veuillez insérer votre clé USB de GestNav4 ou installez en dur"
+
+Start_on_Media_ON="Activer démarrage sur Média"
+Start_on_Radio_ON="Activer démarrage sur Radio"
+Start_on_defaut="Activer démarrage sur menu 6 boutons comme à l'origine"
+
+Absence_skin_bleu_primo="Manque dossier carbone_bleu sur votre clé USB de GestNav4 ou en dur"
+

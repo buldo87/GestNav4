@@ -3,13 +3,14 @@
 source /navi_rw/utility/GestNav4/common.sh
 source /navi_rw/utility/GestNav4/SuiviLog.sh
 source /navi_rw/utility/GestNav4/Traduction.sh
+dure="/navi/utility/GestNav4/Ne_Pas_Modifier"
 		echo "**********************" > /dev/kmsg
 		echo "installation ux trip_info STD" > /dev/kmsg
 		
 suivi_log "Installation ux trip_info STD"
 file="$dir/GestNav4.txt"
 # on vérifie que le chemin est valide
-if [ -d "$dir/GestNav4" ];then
+if [ -d "$dir/GestNav4" ] || [ -d "$dure" ];then
 	sleep 1
 	/navi_rw/utility/GestNav4/LancementPopup.sh "$Installation_TripInfoStd" &
 #lancement son début
@@ -33,6 +34,10 @@ if [ -d "$dir/GestNav4" ];then
 	EnvoiSon installation.wav $1 2
 	/navi_rw/utility/GestNav4/PopupFin.sh &
 
+else
+		/navi_rw/utility/GestNav4/LancementPopup.sh "$Absence_cle" &
+		sleep 6
+		/navi_rw/utility/GestNav4/PopupFin.sh & 
 fi
 /bin/sync
 		echo "**********************" > /dev/kmsg
